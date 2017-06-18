@@ -1,0 +1,23 @@
+{% set pageClass = pageClass|default('home') %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% block title %}<title>Document</title>{% endblock %}
+    <link rel="stylesheet" href="/main.css">
+    <script tyep="text/javascript" src="/head.js"></script>
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+</head>
+<body class="{{ pageClass }}">
+    <div style="width:0;height:0;display:none">{% include "icons.svg" ignore missing %}</div>
+        {% block content %}
+            <h1>Base template content.</h1>
+        {% endblock %}
+
+
+</body>
+
+<script defer async src="/main.js"></script>
+</html>
