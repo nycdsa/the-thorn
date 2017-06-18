@@ -16,6 +16,35 @@
     }
 }
 
+// Utils
+// -----
+
+$default-min-breakpoint: $-sm-min;
+$default-max-breakpoint: $-lg-max;
+// Clamps the value of a property between two screen sizes.
+@mixin fluid-value(
+    $property,
+    $min-value,
+    $max-value,
+    $min-breakpoint: $default-min-breakpoint,
+    $max-breakpoint: $default-max-breakpoint) {
+
+    $diff-value: strip-unit($max-value - $min-value);
+    $diff-breakpoint: strip-unit($max-breakpoint - $min-breakpoint);
+
+    #{$property}: calc(#{$min-value} + #{$diff-value} *((100vw - #{$min-breakpoint}) / #{$diff-breakpoint}));
+
+    @media screen and (max-width: $min-breakpoint) {
+
+        #{$property}: $min-value;
+    }
+
+    @media screen and (min-width: $max-breakpoint) {
+
+        #{$property}: $max-value;
+    }
+}
+
 // =============================================================================
 // Font Face
 // =============================================================================
