@@ -19,6 +19,12 @@
 // Utils
 // -----
 
+@mixin image-size($width, $height) {
+    background-size: $width $height;
+    width: $width;
+    height: $height;
+}
+
 $default-min-breakpoint: $-sm-min;
 $default-max-breakpoint: $-lg-max;
 // Clamps the value of a property between two screen sizes.

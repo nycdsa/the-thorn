@@ -12,13 +12,16 @@
     .social-link {
         display: block;
         &.twitter {
-            //@include image(social-twitter);
+            background-image: url('images/social-twitter_lg_2x.png');
+            @include image-size(50px, 50px);
         }
         &.facebook {
-            //@include image(social-facebook);
+            background-image: url('images/social-facebook_lg_2x.png');
+            @include image-size(50px, 50px);
         }
         &.instagram {
-            //@include image(social-instagram);
+            background-image: url('images/social-instagram_lg_2x.png');
+            @include image-size(50px, 50px);
         }
     }
 }
