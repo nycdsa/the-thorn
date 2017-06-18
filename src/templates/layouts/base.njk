@@ -1,0 +1,46 @@
+{% set pageClass = pageClass|default('home') %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% block title %}<title>Document</title>{% endblock %}
+    <link rel="stylesheet" href="/main.css">
+    <script tyep="text/javascript" src="/head.js"></script>
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+</head>
+<body class="{{ pageClass }}">
+    <div style="width:0;height:0;display:none">{% include "icons.svg" ignore missing %}</div>
+    <header class="global-header">
+        <figure class="header-logo"></figure>
+    </header>
+        {% block content %}
+            <h1>Base template content.</h1>
+        {% endblock %}
+    <footer class="footer">
+        <ul class="social-links-list">
+            <li class="social-links-item">
+                <a href="#" class="social-link facebook"></a>
+            </li>
+            <li class="social-links-item">
+                <a href="#" class="social-link twitter"></a>
+            </li>
+            <li class="social-links-item">
+                <a href="#" class="social-link instagram"></a>
+            </li>
+        </ul>
+        <div class="container thin center">
+            <p class="footer-paragraph spacing">Produced by the <a href="http://www.socialists.nyc/" target="_blank">NYC DSA Media Working Group</a> in collabortion with the <a href="http://www.dsausa.org/design_committee" target="_blank">DSA National Design Committee</a>. This website was designed and built with 100% donated DSA volunteer labor.</p>
+            <div class="row center">
+                <p class="footer-paragraph">Illustrations by <a href="#" target="_blank">Real Name</a></p>
+                <p class="footer-paragraph">Web Design by <a href="#" target="_blank">Real Name</a></p>
+                <p class="footer-paragraph">Web Development by <a href="#" target="_blank">Real Name</a></p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+<script defer async src="/main.js"></script>
+</html>

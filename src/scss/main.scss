@@ -1,0 +1,12 @@
+// Reset
+@import 'reset-css/_reset';
+// Dependencies
+@import 'dependencies/variables';
+@import 'dependencies/mixins';
+// Components
+@import 'components/fonts';
+// Global
+@import 'global/base';
+@import 'global/header';
+@import 'global/footer';
+@import 'global/post';

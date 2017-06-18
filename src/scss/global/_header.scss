@@ -1,0 +1,8 @@
+.global-header {
+	margin-bottom: 1em;
+}
+.header-logo {
+	background-image: url('images/logo_lg_2x.png');
+	@include image-size(649px, 327px);
+	margin: 0 auto;
+}

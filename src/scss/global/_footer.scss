@@ -1,0 +1,37 @@
+.footer {
+    padding: 60px 0;
+    .social-links-list {
+        text-align: center;
+        margin-bottom: 2em;
+    }
+    .social-links-item {
+        display: inline-block;
+        vertical-align: middle;
+        padding: 0 12px;
+    }
+    .social-link {
+        display: block;
+        &.twitter {
+            background-image: url('images/social-twitter_lg_2x.png');
+            @include image-size(50px, 50px);
+        }
+        &.facebook {
+            background-image: url('images/social-facebook_lg_2x.png');
+            @include image-size(50px, 50px);
+        }
+        &.instagram {
+            background-image: url('images/social-instagram_lg_2x.png');
+            @include image-size(50px, 50px);
+        }
+    }
+}
+.footer-paragraph {
+    @include fluid-value(font-size, 12px, 14px);
+    a {
+        color: $red;
+        text-decoration: none;
+    }
+    &.spacing {
+        margin-bottom: 2em;
+    }
+}

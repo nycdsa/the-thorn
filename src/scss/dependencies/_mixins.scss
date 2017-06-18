@@ -1,0 +1,83 @@
+///
+/// MEDIA QUERIES
+@mixin viewport($name: lg) {
+    @if ($name == 'lg') {
+        @content;
+    }
+    @else if ($name == 'md') {
+        @media (max-width: $-md-max) {
+            @content;
+        }
+    }
+    @else {
+        @media (max-width: $-sm-max) {
+            @content;
+        }
+    }
+}
+
+// Utils
+// -----
+
+@mixin image-size($width, $height) {
+    background-size: $width $height;
+    width: $width;
+    height: $height;
+}
+
+$default-min-breakpoint: $-sm-min;
+$default-max-breakpoint: $-lg-max;
+// Clamps the value of a property between two screen sizes.
+@mixin fluid-value(
+    $property,
+    $min-value,
+    $max-value,
+    $min-breakpoint: $default-min-breakpoint,
+    $max-breakpoint: $default-max-breakpoint) {
+
+    $diff-value: strip-unit($max-value - $min-value);
+    $diff-breakpoint: strip-unit($max-breakpoint - $min-breakpoint);
+
+    #{$property}: calc(#{$min-value} + #{$diff-value} *((100vw - #{$min-breakpoint}) / #{$diff-breakpoint}));
+
+    @media screen and (max-width: $min-breakpoint) {
+
+        #{$property}: $min-value;
+    }
+
+    @media screen and (min-width: $max-breakpoint) {
+
+        #{$property}: $max-value;
+    }
+}
+
+// =============================================================================
+// Font Face
+// =============================================================================
+
+@mixin font-face($name, $path, $weight: null, $style: null, $exts: eot woff2 woff ttf svg) {
+    $src: null;
+
+    $extmods: (
+        eot: "?",
+        svg: "#" + str-replace($name, " ", "_")
+    );
+
+    $formats: (
+        otf: "opentype",
+        ttf: "truetype"
+    );
+
+    @each $ext in $exts {
+        $extmod: if(map-has-key($extmods, $ext), $ext + map-get($extmods, $ext), $ext);
+        $format: if(map-has-key($formats, $ext), map-get($formats, $ext), $ext);
+        $src: append($src, url(quote($path + "." + $extmod)) format(quote($format)), comma);
+    }
+
+    @font-face {
+        font-family: quote($name);
+        font-style: $style;
+        font-weight: $weight;
+        src: $src;
+    }
+}

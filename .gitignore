@@ -1,0 +1,14 @@
+*.sublime*
+.DS_Store
+.grunt
+.sass-cache
+_SpecRunner.html
+node_modules
+npm-debug.log
+tag.prop
+src/scss/kit/_imagemap.scss
+
+# project specific
+dist
+.tmp
+.dmp

@@ -1,0 +1,36 @@
+html, body {
+	font-family: 'ManifoldDSA';
+	line-height: 1.42;
+	font-size: 18px;
+	font-weight: 400;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    @include viewport(md) {
+        max-width: 600px;
+    }
+    &.full-bleed {
+        max-width: 100%;
+        width: 100%;
+    }
+    &.thin {
+        max-width: 760px;
+        @include viewport(md) {
+            max-width: 600px;
+        }
+        @include viewport(sm) {
+            max-width: 400px;
+        }
+    }
+    &.vertical-center {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+.center {
+    text-align: center;
+}
