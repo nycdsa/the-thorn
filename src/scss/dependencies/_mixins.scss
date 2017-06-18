@@ -1,3 +1,21 @@
+///
+/// MEDIA QUERIES
+@mixin viewport($name: lg) {
+    @if ($name == 'lg') {
+        @content;
+    }
+    @else if ($name == 'md') {
+        @media (max-width: $-md-max) {
+            @content;
+        }
+    }
+    @else {
+        @media (max-width: $-sm-max) {
+            @content;
+        }
+    }
+}
+
 // =============================================================================
 // Font Face
 // =============================================================================
