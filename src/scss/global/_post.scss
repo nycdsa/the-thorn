@@ -1,0 +1,23 @@
+.post {
+
+}
+.post-header {
+	margin-bottom: 2em;
+}
+.post-title {
+	font-weight: 600;
+	@include fluid-value(font-size, 44px, 80px);
+}
+.post-tags {
+	.post-tag {
+		display: inline-block;
+		font-weight: 800;
+		text-transform: uppercase;
+		font-size: 14px;
+	}
+}
+.post-body {
+	p + p {
+		margin-top: 2em;
+	}
+}
