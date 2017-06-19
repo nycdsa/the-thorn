@@ -1,12 +1,16 @@
-.post {
-
+.post + .post {
+	margin-top: 4em;
+}
+.posts-container {
+	margin-bottom: 2em;
 }
 .post-header {
 	margin-bottom: 2em;
 }
 .post-title {
-	font-weight: 600;
-	@include fluid-value(font-size, 44px, 80px);
+	font-weight: 900;
+	@include fluid-value(font-size, 36px, 60px);
+	text-transform: uppercase;
 }
 .post-tags {
 	.post-tag {
@@ -17,7 +21,12 @@
 	}
 }
 .post-body {
+	p {
+		@include fluid-value(font-size, 22px, 30px);
+		font-weight: 200;
+	}
 	p + p {
-		margin-top: 2em;
+		margin-top: 1em;
+		text-indent: 2em;
 	}
 }
