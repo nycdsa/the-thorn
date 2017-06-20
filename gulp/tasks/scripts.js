@@ -34,7 +34,7 @@ module.exports = function init(name, gulp, config) {
                         }).bundle(),
                         source(entry),
                         buffer(),
-                        gulpif(config.production, uglify()),
+                        // gulpif(config.production, uglify()),
                         gulpif(!config.production, sourcemaps.init({loadMaps: true})),
                         gulpif(!config.production, sourcemaps.write('.')),
                         gulp.dest(config.dir.output)
