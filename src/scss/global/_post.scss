@@ -47,6 +47,10 @@
 		margin-top: 1em;
 		text-indent: 2em;
 	}
+	a {
+		color: $red;
+		text-decoration: underline;
+	}
 	.post-list {
 		list-style: disc;
 		padding-left: 1em;
