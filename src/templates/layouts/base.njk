@@ -13,7 +13,9 @@
 <body class="{{ pageClass }}">
     <div style="width:0;height:0;display:none">{% include "icons.svg" ignore missing %}</div>
     <header class="global-header">
-        <figure class="header-logo"></figure>
+        <div class="header-inner">
+            <figure class="header-logo"></figure>
+        </div>
     </header>
         {% block content %}
             <h1>Base template content.</h1>

@@ -37,7 +37,7 @@ module.exports = function init(name, gulp, config) {
 					file.basename = DEFAULT_FILENAME;
 				}
 			}),
-			gulpif(config.production, htmlnano({minifySvg: false}), htmlbeautify()),
+			// gulpif(config.production, htmlnano({minifySvg: false}), htmlbeautify()),
 			gulp.dest(config.dir.output)
 		],
 			done

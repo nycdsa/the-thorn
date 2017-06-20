@@ -38,7 +38,7 @@
 	}
 }
 .post-body {
-	@include fluid-value(font-size, 22px, 30px);
+	@include fluid-value(font-size, 18px, 24px);
 	font-weight: 200;
 	li + li {
 		margin-top: 1em;

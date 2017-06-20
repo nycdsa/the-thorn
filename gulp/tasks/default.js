@@ -17,7 +17,7 @@ module.exports = function init(name, gulp, config, tasks) {
     ];
 
     if (config.production) {
-        build.push(tasks.rev);
+        // build.push(tasks.rev);
     } else {
         build.push(tasks.serve);
     }
