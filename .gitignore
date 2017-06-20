@@ -7,6 +7,7 @@ node_modules
 npm-debug.log
 tag.prop
 src/scss/kit/_imagemap.scss
+package-lock.json
 
 # project specific
 dist
