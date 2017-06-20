@@ -45,12 +45,23 @@
 	}
 	p + p {
 		margin-top: 1em;
-		text-indent: 2em;
 	}
+    p + blockquote, blockquote + p {
+        margin-top: 2em;
+    }
+    p + p {
+        text-indent: 2em;
+    }
 	a {
 		color: $red;
 		text-decoration: underline;
 	}
+    blockquote {
+        line-height: 1.6;
+        padding-left: 2em;
+        border-left: 1px solid $red;
+        @include fluid-value(font-size, 24px, 30px);
+    }
 	.post-list {
 		list-style: disc;
 		padding-left: 1em;
