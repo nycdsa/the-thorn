@@ -42,3 +42,20 @@ a {
         color: $black;
     }
 }
+.link-cta {
+    display: inline-block;
+    @include fluid-value(font-size, 18px, 24px);
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    background-color: $red;
+    border-radius: 30px;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: color 0.33s ease, background-color 0.33s ease, border-color 0.33s ease;
+    &:hover {
+        color: white;
+        background-color: $black;
+    }
+}
