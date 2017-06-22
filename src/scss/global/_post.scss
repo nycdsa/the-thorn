@@ -53,7 +53,6 @@
         text-indent: 2em;
     }
 	a {
-		color: $red;
 		text-decoration: underline;
 	}
     blockquote {
@@ -66,4 +65,12 @@
 		list-style: disc;
 		padding-left: 1em;
 	}
+}
+.post-more {
+	margin-top: 2em;
+}
+.read-more {
+	color: $red;
+	text-decoration: none;
+	@include fluid-value(font-size, 18px, 24px);
 }

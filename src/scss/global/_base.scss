@@ -34,3 +34,11 @@ html, body {
 .center {
     text-align: center;
 }
+a {
+    color: $red;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    &:hover {
+        color: $black;
+    }
+}
