@@ -5,7 +5,8 @@
   "author": "skiprox",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp -p",
+    "test": "echo \"no tests to run\"",
     "kit:setup": "kit:setup"
   },
   "license": "ISC",
@@ -19,7 +20,9 @@
     "autoprefixer": "^7.1.1",
     "browser-sync": "^2.18.12",
     "browserify": "^14.4.0",
+    "cssnano": "^3.10.0",
     "del": "^2.2.2",
+    "globby": "^6.1.0",
     "gulp": "^3.9.1",
     "gulp-buffer": "0.0.2",
     "gulp-cachebust": "0.0.6",
@@ -45,7 +48,8 @@
     "pump": "^1.0.2",
     "require-directory": "^2.1.1",
     "vinyl-buffer": "^1.0.0",
-    "vinyl-source-stream": "^1.1.0"
+    "vinyl-source-stream": "^1.1.0",
+    "yargs": "^8.0.2"
   },
   "_COMMENT": {
     "TO USE GREENSOCK, ADD THE BELOW TO A KEY CALLED 'browser'": true,
