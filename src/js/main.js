@@ -7,11 +7,14 @@
 ************************/
 
 // Greensock
-require('tween-lite');
-require('ease-pack');
-require('css-plugin');
-require('scroll-to-plugin');
-require('timeline-lite');
+// TO USE THIS, ADD THE GREENSOCK LINKS IN PACKAGE.JSON (FOLLOW INSTRUCTIONS THERE)
+// AND THEN UNCOMMENT THIS. BUT FOR NOW, THIS IS NOT NEEDED
+// require('tween-lite');
+// require('ease-pack');
+// require('css-plugin');
+// require('scroll-to-plugin');
+// require('timeline-lite');
+
 // Custom modules
 const TestModule = require('./modules/test-module');
 

@@ -47,7 +47,8 @@
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
   },
-  "browser": {
+  "_COMMENT": {
+    "TO USE GREENSOCK, ADD THE BELOW TO A KEY CALLED 'browser'": true,
     "tween-lite": "./node_modules/gsap/src/uncompressed/TweenLite.js",
     "timeline-lite": "./node_modules/gsap/src/uncompressed/TimelineLite.js",
     "ease-pack": "./node_modules/gsap/src/uncompressed/easing/EasePack.js",
