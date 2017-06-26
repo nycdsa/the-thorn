@@ -11,12 +11,9 @@ const path = require('path');
 const pump = require('pump');
 const rename = require('gulp-rename');
 
-const {
-	MAILCHIMP_API,
-	MAILCHIMP_KEY,
-	MAILCHIMP_LIST
-} = process.env;
-
+const MAILCHIMP_API = process.env.MAILCHIMP_API
+const MAILCHIMP_KEY = process.env.MAILCHIMP_KEY
+const MAILCHIMP_LIST = process.env.MAILCHIMP_LIST
 const SRC = ['**/*.njk'];
 const DEFAULT_FILENAME = 'index';
 
@@ -60,16 +57,16 @@ module.exports = function init(name, gulp, config) {
 function getCampaignsFromMailchimp() {
 	const headers = { Authorization: `Bearer ${MAILCHIMP_KEY}` }
 	return http.get(`${MAILCHIMP_API}/campaigns`, { headers })
-		.then(({ data }) => {
-			return data.campaigns.filter(d =>
+		.then(res => {
+			return res.data.campaigns.filter(d =>
 				(d.recipients.list_id === MAILCHIMP_LIST)
 			);
 		})
 		.then(campaigns => {
 			const all = campaigns.map(c => {
 				const url = `${MAILCHIMP_API}/campaigns/${c.id}/content`;
-				return http.get(url, { headers }).then(({ data }) => {
-					return Object.assign({}, c, data);
+				return http.get(url, { headers }).then(res => {
+					return Object.assign({}, c, res.data);
 				});
 			});
 
