@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "build": "gulp -p",
+    "watch": "gulp",
     "test": "echo \"no tests to run\"",
     "kit:setup": "kit:setup"
   },
@@ -18,8 +19,10 @@
   },
   "devDependencies": {
     "autoprefixer": "^7.1.1",
+    "axios": "^0.16.2",
     "browser-sync": "^2.18.12",
     "browserify": "^14.4.0",
+    "cheerio": "^1.0.0-rc.1",
     "cssnano": "^3.10.0",
     "del": "^2.2.2",
     "globby": "^6.1.0",
@@ -44,6 +47,7 @@
     "immu": "^3.0.0",
     "jsdoc": "^3.4.3",
     "lodash": "^4.17.4",
+    "moment": "^2.18.1",
     "postcss-scss": "^1.0.0",
     "pump": "^1.0.2",
     "require-directory": "^2.1.1",

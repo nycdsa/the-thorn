@@ -15,18 +15,36 @@
 	margin-top: 2em;
 }
 .post-header {
-	margin-bottom: 3em;
-	text-align: center;
+	margin-bottom: 1.5em;
 }
-.post-subheader {
-	font-weight: 900;
-	@include fluid-value(font-size, 32px, 44px);
-	text-transform: uppercase;
-	margin-bottom: 0.6em;
+.post-subheader,
+.post .post-body {
+	h2 {
+		font-weight: 900;
+		@include fluid-value(font-size, 32px, 44px);
+		text-transform: uppercase;
+	}
+	span > strong > span {
+		font-weight: 900;
+		@include fluid-value(font-size, 22px, 28px);
+		text-transform: uppercase;
+	}
+	strong > font[color="#ff0000"] {
+		background-color: #ff0000;
+		box-sizing: border-box;
+		color: white;
+		display: inline-block;
+		font-size: 50px;
+		margin-bottom: .4em;
+		padding: .5em 1em;
+		text-align: center;
+		width: 100%;
+	}
 }
 .post-title {
 	font-weight: 900;
-	@include fluid-value(font-size, 36px, 60px);
+	@include fluid-value(font-size, 36px, 50px);
+	line-height: 1.2em;
 	text-transform: uppercase;
 }
 .post-tags {
@@ -46,12 +64,12 @@
 	p + p {
 		margin-top: 1em;
 	}
-    p + blockquote, blockquote + p {
-        margin-top: 2em;
-    }
-    p + p {
-        text-indent: 2em;
-    }
+  p + blockquote, blockquote + p {
+      margin-top: 2em;
+  }
+	p strong span {
+		font-size: 1.2em;
+	}
 	a {
 		text-decoration: underline;
 	}
@@ -68,9 +86,4 @@
 }
 .post-more {
 	margin-top: 2em;
-}
-.read-more {
-	color: $red;
-	text-decoration: none;
-	@include fluid-value(font-size, 18px, 24px);
 }
