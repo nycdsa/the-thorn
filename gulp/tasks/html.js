@@ -54,27 +54,42 @@ module.exports = function init(name, gulp, config) {
 	});
 };
 
-function getCampaignsFromMailchimp() {
-	const headers = { Authorization: `Bearer ${MAILCHIMP_KEY}` }
-	return http.get(`${MAILCHIMP_API}/campaigns`, { headers })
-		.then(res => {
-			return res.data.campaigns.filter(d =>
+const get = (url, config, wait=0) => {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      http.get(url, config)
+        .then(response => resolve(response))
+        .catch(err => reject(err))
+    }, wait)
+  })
+}
+
+const getCampaignsFromMailchimp = () => {
+	const config = {
+		headers: { Authorization: `Bearer ${MAILCHIMP_KEY}` },
+		params: { count: 25, sort_field: 'send_time'}
+	}
+	return get(`${MAILCHIMP_API}/campaigns`, config)
+		.then(res => res.data.campaigns)
+		.then(campaigns => {
+			return campaigns.filter(d =>
 				(d.recipients.list_id === MAILCHIMP_LIST)
 			);
 		})
 		.then(campaigns => {
-			const all = campaigns.map(c => {
+			const all = campaigns.map((c, i) => {
 				const url = `${MAILCHIMP_API}/campaigns/${c.id}/content`;
-				return http.get(url, { headers }).then(res => {
+				return get(url, config, i * 50).then(res => {
 					return Object.assign({}, c, res.data);
 				});
 			});
-
 			return Promise.all(all);
 		}).then(content => {
 			return content.sort((a, b) => {
-				return new Date(a.send_time) < new Date(b.send_time);
-			}).map(c => {
+				return new Date(b.send_time) - new Date(a.send_time);
+			});
+		}).then(sorted => {
+			return sorted.map(c => {
 				const $ = cheerio.load(c.html);
 				delete c._links;
 
