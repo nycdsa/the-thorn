@@ -54,13 +54,13 @@ module.exports = function init(name, gulp, config) {
 	});
 };
 
-const get = (url, config, wait=0) => {
+const get = (url, config, wait) => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       http.get(url, config)
         .then(response => resolve(response))
         .catch(err => reject(err))
-    }, wait)
+    }, wait || 0)
   })
 }
 
