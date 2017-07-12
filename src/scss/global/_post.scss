@@ -87,3 +87,15 @@
 .post-more {
 	margin-top: 2em;
 }
+
+/*********************************
+*
+* MAILCHIMP OVERRIDES GO HERE
+* 
+**********************************/
+.mcnTextBlock:first-of-type {
+	margin-bottom: 2em;
+}
+.mcnFollowBlock {
+	display: none;
+}
