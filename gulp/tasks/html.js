@@ -1,5 +1,8 @@
 'use strict';
 
+const fs = require('fs');
+const path = require('path');
+
 const cheerio = require('cheerio');
 const gulpif = require('gulp-if');
 const htmlbeautify = require('gulp-html-beautify');
@@ -7,7 +10,6 @@ const htmlnano = require('gulp-htmlnano');
 const http = require('axios');
 const moment = require('moment');
 const nunjucksRender = require('gulp-nunjucks-render');
-const path = require('path');
 const pump = require('pump');
 const rename = require('gulp-rename');
 
@@ -28,7 +30,7 @@ module.exports = function init(name, gulp, config) {
 	}
 
 	gulp.task(name, (done) => {
-		getCampaignsFromMailchimp().then(posts => {
+		getCampaigns(config).then(posts => {
 			pump([
 				gulp.src(SRC, {cwd: path.join(cwd, 'pages')}),
 				nunjucksRender({
@@ -50,7 +52,7 @@ module.exports = function init(name, gulp, config) {
 			],
 				done
 			);
-		});
+		}).catch(e => console.error(e));
 	});
 };
 
@@ -61,10 +63,36 @@ const get = (url, config, wait) => {
         .then(response => resolve(response))
         .catch(err => reject(err))
     }, wait || 0)
-  })
+  });
 }
 
-const getCampaignsFromMailchimp = () => {
+const writeFile = (path, data) => {
+	return new Promise((resolve, reject) => {
+		fs.writeFile(path, JSON.stringify(data, null, 2), err => {
+			if (err) return reject(err);
+			resolve(data);
+		});
+	});
+}
+
+const getCampaigns = config => {
+	return new Promise((resolve, reject) => {
+		const j = path.join(config.dir.output, 'mailchimp.json');
+		fs.readFile(j, 'utf8', (err, data) => {
+			if (err && err.code === 'ENOENT') {
+				return fetchCampaignsFromMailchimp(config)
+					.then(campaigns => writeFile(j, campaigns))
+					.then(campaigns => resolve(campaigns))
+					.catch(err => reject(err));
+			}
+
+			resolve(JSON.parse(data));
+		});
+	});
+};
+
+
+const fetchCampaignsFromMailchimp = () => {
 	const config = {
 		headers: { Authorization: `Bearer ${MAILCHIMP_KEY}` },
 		params: { count: 25, sort_field: 'send_time'}
