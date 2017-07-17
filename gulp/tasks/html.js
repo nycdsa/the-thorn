@@ -62,7 +62,7 @@ const get = (url, config, wait) => {
       http.get(url, config)
         .then(response => resolve(response))
         .catch(err => reject(err))
-    }, wait || 0)
+    }, wait || 10)
   });
 }
 
