@@ -14,8 +14,20 @@
 .post-section + .post-section {
 	margin-top: 2em;
 }
-.post-header {
-	margin-bottom: 1.5em;
+.post-date-header {
+	border: 2px solid $red;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	display: flex;
+	font-weight: 900;
+	justify-content: space-between;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	padding-bottom: .5rem;
+	padding-top: .5rem;
+}
+.post-number {
+	text-transform: uppercase;
 }
 .post-subheader,
 .post .post-body {
@@ -34,7 +46,7 @@
 		box-sizing: border-box;
 		color: white;
 		display: inline-block;
-		font-size: 50px;
+		font-size: 36px;
 		margin-bottom: .4em;
 		padding: .5em 1em;
 		text-align: center;
@@ -95,7 +107,7 @@
 /*********************************
 *
 * MAILCHIMP OVERRIDES GO HERE
-* 
+*
 **********************************/
 .mcnTextBlock:first-of-type {
 	margin-bottom: 2em;
