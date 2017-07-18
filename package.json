@@ -48,6 +48,7 @@
     "jsdoc": "^3.4.3",
     "lodash": "^4.17.4",
     "moment": "^2.18.1",
+    "nunjucks": "^3.0.1",
     "postcss-scss": "^1.0.0",
     "pump": "^1.0.2",
     "require-directory": "^2.1.1",

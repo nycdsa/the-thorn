@@ -31,6 +31,7 @@ module.exports = function init(name, gulp, config) {
 
 	gulp.task(name, (done) => {
 		getCampaigns(config).then(posts => {
+			createSlugAttributes(posts);
 			pump([
 				gulp.src(SRC, {cwd: path.join(cwd, 'pages')}),
 				nunjucksRender({
@@ -55,6 +56,13 @@ module.exports = function init(name, gulp, config) {
 		}).catch(e => console.error(e));
 	});
 };
+
+const createSlugAttributes = (posts) => {
+	posts.forEach(elem => {
+		let url = `post/${elem.settings.subject_line.toLowerCase().split(' ').join('-').replace(/([^a-z0-9]+)/gi, '-')}`;
+		elem.slug = url;
+	});
+}
 
 const get = (url, config, wait) => {
   return new Promise((resolve, reject) => {
