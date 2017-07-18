@@ -1,6 +1,6 @@
 .post {
 	padding-bottom: 4em;
-	margin-bottom: 4em;
+	margin-bottom: 2.5em;
 	border-bottom: 1px solid $black;
 	&:last-child {
 		border-bottom: none;
@@ -14,8 +14,18 @@
 .post-section + .post-section {
 	margin-top: 2em;
 }
-.post-header {
-	margin-bottom: 1.5em;
+.post-date-header {
+	border: 2px solid $red;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	display: flex;
+	font-weight: 700;
+	justify-content: space-between;
+	margin-top: 1rem;
+	margin-bottom: 1.7rem;
+	padding-bottom: .5rem;
+	padding-top: .5rem;
+	text-transform: uppercase;
 }
 .post-subheader,
 .post .post-body {
@@ -34,7 +44,7 @@
 		box-sizing: border-box;
 		color: white;
 		display: inline-block;
-		font-size: 50px;
+		font-size: 36px;
 		margin-bottom: .4em;
 		padding: .5em 1em;
 		text-align: center;
@@ -43,17 +53,8 @@
 }
 .post-title {
 	font-weight: 900;
-	@include fluid-value(font-size, 36px, 50px);
+	@include fluid-value(font-size, 24px, 36px);
 	line-height: 1.2em;
-	text-transform: uppercase;
-}
-.post-tags {
-	.post-tag {
-		display: inline-block;
-		font-weight: 800;
-		text-transform: uppercase;
-		font-size: 14px;
-	}
 }
 .post-body {
 	@include fluid-value(font-size, 18px, 24px);
@@ -92,14 +93,22 @@
 	margin-top: 2em;
 }
 
-/*********************************
-*
-* MAILCHIMP OVERRIDES GO HERE
-* 
-**********************************/
 .mcnTextBlock:first-of-type {
-	margin-bottom: 2em;
+	font-size: .7em;
+	margin-bottom: .7em;
 }
+
 .mcnFollowBlock {
 	display: none;
 }
+// #post-2d16163e15 {
+	.mcnTextContentContainer .mcnTextContent {
+		strong:first-of-type {
+			font-weight: 900;
+		}
+	}
+	.mcnTextContentContainer ul {
+		list-style-type: disc;
+		padding-left: 1.4rem;
+	}
+// }
