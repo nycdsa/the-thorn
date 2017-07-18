@@ -25,6 +25,7 @@
     "cheerio": "^1.0.0-rc.1",
     "cssnano": "^3.10.0",
     "del": "^2.2.2",
+    "fs-jetpack": "^1.1.0",
     "globby": "^6.1.0",
     "gulp": "^3.9.1",
     "gulp-buffer": "0.0.2",

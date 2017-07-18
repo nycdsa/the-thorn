@@ -2,6 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const jetpack = require('fs-jetpack');
 
 const cheerio = require('cheerio');
 const gulpif = require('gulp-if');
@@ -9,6 +10,7 @@ const htmlbeautify = require('gulp-html-beautify');
 const htmlnano = require('gulp-htmlnano');
 const http = require('axios');
 const moment = require('moment');
+const nunjucks = require('nunjucks');
 const nunjucksRender = require('gulp-nunjucks-render');
 const pump = require('pump');
 const rename = require('gulp-rename');
@@ -31,7 +33,8 @@ module.exports = function init(name, gulp, config) {
 
 	gulp.task(name, (done) => {
 		getCampaigns(config).then(posts => {
-			createSlugAttributes(posts);
+			addData(posts);
+			createPostFiles(posts, config);
 			pump([
 				gulp.src(SRC, {cwd: path.join(cwd, 'pages')}),
 				nunjucksRender({
@@ -57,13 +60,6 @@ module.exports = function init(name, gulp, config) {
 	});
 };
 
-const createSlugAttributes = (posts) => {
-	posts.forEach(elem => {
-		let url = `post/${elem.settings.subject_line.toLowerCase().split(' ').join('-').replace(/([^a-z0-9]+)/gi, '-')}`;
-		elem.slug = url;
-	});
-}
-
 const get = (url, config, wait) => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
@@ -85,7 +81,7 @@ const writeFile = (path, data) => {
 
 const getCampaigns = config => {
 	return new Promise((resolve, reject) => {
-		const j = path.join(config.dir.output, 'mailchimp.json');
+		const j = path.join(config.dir.dump, 'mailchimp.json');
 		fs.readFile(j, 'utf8', (err, data) => {
 			if (err && err.code === 'ENOENT') {
 				return fetchCampaignsFromMailchimp(config)
@@ -139,3 +135,35 @@ const fetchCampaignsFromMailchimp = () => {
 			});
 		});
 }
+
+/**
+ * Add data to the posts objects
+ * @param  {array} campaigns  An array of posts
+ */
+const addData = (campaigns) => {
+	createSlugAttributes(campaigns);
+}
+
+/**
+ * Helper function to add slugs to json
+ * @param  {array} posts	An array of posts
+ */
+const createSlugAttributes = (posts) => {
+	posts.forEach(elem => {
+		let url = `post/${elem.settings.subject_line.toLowerCase().split(' ').join('-').replace(/([^a-z0-9]+)/gi, '-')}`;
+		elem.slug = url;
+	});
+}
+
+const createPostFiles = (posts, config) => {
+	const layoutTemplate = path.join(config.dir.source, 'templates/layouts/base.njk');
+	const layoutPath = path.join(config.dir.dump, 'layouts/base.njk');
+	const postTemplate = path.join(config.dir.source, 'templates/pages/post.njk');
+	posts.forEach(elem => {
+		let postPath = path.join(config.dir.dump, `${elem.slug}.html`);
+		jetpack.copy(layoutTemplate, layoutPath, {overwrite: true});
+		jetpack.copy(postTemplate, postPath, {overwrite: true});
+	});
+}
+
+
