@@ -127,11 +127,7 @@ const fetchCampaignsFromMailchimp = () => {
 					.html()
 					.replace(/style=\"[^>]*\"/g, '');
 
-
-				return Object.assign(c, {
-					send_time: moment(c.send_time).calendar(),
-					html
-				});
+				return Object.assign(c, { html });
 			});
 		});
 }
