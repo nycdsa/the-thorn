@@ -33,8 +33,8 @@ module.exports = function init(name, gulp, config) {
 
 	gulp.task(name, (done) => {
 		getCampaigns(config).then(posts => {
+			// Add the slugs data
 			addData(posts);
-			createPostFiles(posts, config);
 			pump([
 				gulp.src(SRC, {cwd: path.join(cwd, 'pages')}),
 				nunjucksRender({
@@ -156,17 +156,6 @@ const createSlugAttributes = (posts) => {
 	posts.forEach(elem => {
 		let url = `post/${elem.settings.subject_line.toLowerCase().split(' ').join('-').replace(/([^a-z0-9]+)/gi, '-')}`;
 		elem.slug = url;
-	});
-}
-
-const createPostFiles = (posts, config) => {
-	const layoutTemplate = path.join(config.dir.source, 'templates/layouts/base.njk');
-	const layoutPath = path.join(config.dir.dump, 'layouts/base.njk');
-	const postTemplate = path.join(config.dir.source, 'templates/pages/post.njk');
-	posts.forEach(elem => {
-		let postPath = path.join(config.dir.dump, `${elem.slug}.html`);
-		jetpack.copy(layoutTemplate, layoutPath, {overwrite: true});
-		jetpack.copy(postTemplate, postPath, {overwrite: true});
 	});
 }
 
