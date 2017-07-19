@@ -121,7 +121,7 @@ const fetchCampaignsFromMailchimp = () => {
 				return new Date(b.send_time) - new Date(a.send_time);
 			});
 		}).then(sorted => {
-			return sorted.map(c => {
+			return sorted.map((c, i) => {
 				const $ = cheerio.load(c.html);
 				delete c._links;
 
@@ -131,7 +131,11 @@ const fetchCampaignsFromMailchimp = () => {
 					.html()
 					.replace(/style=\"[^>]*\"/g, '');
 
-				return Object.assign(c, { html });
+
+				return Object.assign(c, {
+					issue_number: sorted.length - i,
+					html
+				});
 			});
 		});
 }
