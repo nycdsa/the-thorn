@@ -147,14 +147,21 @@ const fetchCampaignsFromMailchimp = () => {
 
 /**
  * Helper function to add slugs to json
- * @param  {Object} post	A post object
+ * @param  {Object} obj 	A post object
+ * @return {[type]}     [description]
  */
 const createSlugAttribute = (obj) => {
 	return `post/${obj.settings.subject_line.toLowerCase().split(' ').join('-').replace(/([^a-z0-9]+)/gi, '-')}`;
 };
 
+/**
+ * Helper function to get shortened text
+ * to display on the homepage
+ * @param  {Object} obj 	A post object
+ * @return {String}     	A string or html of the shortened text
+ */
 const createShortenedText = (obj) => {
-	console.log(obj.plain_text.split('Local News\n'));
+	// No idea what to do here
 }
 
 
