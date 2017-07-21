@@ -33,8 +33,6 @@ module.exports = function init(name, gulp, config) {
 
 	gulp.task(name, (done) => {
 		getCampaigns(config).then(posts => {
-			// Add the slugs data
-			addData(posts);
 			pump([
 				gulp.src(SRC, {cwd: path.join(cwd, 'pages')}),
 				nunjucksRender({
@@ -122,41 +120,41 @@ const fetchCampaignsFromMailchimp = () => {
 			});
 		}).then(sorted => {
 			return sorted.map((c, i) => {
+				// Format the HTML to return in the JSON file
 				const $ = cheerio.load(c.html);
 				delete c._links;
-
 				// strip inline styles from email html for easier
 				// formatting
 				const html = $('.bodyContainer')
 					.html()
 					.replace(/style=\"[^>]*\"/g, '');
 
+				// Add in slugs to return in the JSON file
+				const slug = createSlugAttribute(c);
+
+				// Add shortened text to display on the homepage
+				const shortenedText = createShortenedText(c);
+
 
 				return Object.assign(c, {
 					issue_number: sorted.length - i,
-					html
+					html,
+					slug: slug
 				});
 			});
 		});
-}
-
-/**
- * Add data to the posts objects
- * @param  {array} campaigns  An array of posts
- */
-const addData = (campaigns) => {
-	createSlugAttributes(campaigns);
-}
+};
 
 /**
  * Helper function to add slugs to json
- * @param  {array} posts	An array of posts
+ * @param  {Object} post	A post object
  */
-const createSlugAttributes = (posts) => {
-	posts.forEach(elem => {
-		let url = `post/${elem.settings.subject_line.toLowerCase().split(' ').join('-').replace(/([^a-z0-9]+)/gi, '-')}`;
-		elem.slug = url;
-	});
+const createSlugAttribute = (obj) => {
+	return `post/${obj.settings.subject_line.toLowerCase().split(' ').join('-').replace(/([^a-z0-9]+)/gi, '-')}`;
+};
+
+const createShortenedText = (obj) => {
+	console.log(obj.plain_text.split('Local News\n'));
 }
 
 

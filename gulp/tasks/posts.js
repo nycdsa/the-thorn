@@ -30,10 +30,9 @@ module.exports = function init(name, gulp, config) {
 		// doesn't exist yet when all tasks are being registered
 		const POSTS = require('./../../.dmp/mailchimp.json');
 
+		// A tally of the number of items processed,
+		// used to call `done()` in the loop
 		let itemsProcessed = 0;
-
-		// First, add the slug data
-		addData(POSTS);
 
 		POSTS.forEach(post => {
 			pump([
@@ -47,8 +46,8 @@ module.exports = function init(name, gulp, config) {
 				}),
 				rename(file => {
 					if (file.basename === 'post') {
-						file.dirname = '';
-						file.basename = post.slug;
+						file.dirname = `${post.slug}`;
+						file.basename = 'index';
 					} else {
 						file.dirname = 'trash';
 						file.basename = 'trash';
@@ -63,35 +62,5 @@ module.exports = function init(name, gulp, config) {
 		});
 	});
 };
-
-/**
- * Add data to the posts objects
- * @param  {array} campaigns  An array of posts
- */
-const addData = (campaigns) => {
-	createSlugAttributes(campaigns);
-}
-
-/**
- * Helper function to add slugs to json
- * @param  {array} posts	An array of posts
- */
-const createSlugAttributes = (posts) => {
-	posts.forEach(elem => {
-		let url = `post/${elem.settings.subject_line.toLowerCase().split(' ').join('-').replace(/([^a-z0-9]+)/gi, '-')}`;
-		elem.slug = url;
-	});
-}
-
-const createPostFiles = (posts, config) => {
-	const layoutTemplate = path.join(config.dir.source, 'templates/layouts/base.njk');
-	const layoutPath = path.join(config.dir.dump, 'layouts/base.njk');
-	const postTemplate = path.join(config.dir.source, 'templates/pages/post.njk');
-	posts.forEach(elem => {
-		let postPath = path.join(config.dir.dump, `${elem.slug}.html`);
-		jetpack.copy(layoutTemplate, layoutPath, {overwrite: true});
-		jetpack.copy(postTemplate, postPath, {overwrite: true});
-	});
-}
 
 
