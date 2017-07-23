@@ -15,7 +15,8 @@
     "bourbon": "^4.3.4",
     "bourbon-neat": "^1.8.0",
     "gsap": "^1.19.1",
-    "reset-css": "^2.2.0"
+    "reset-css": "^2.2.0",
+    "to-array": "^0.1.4"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.1",
