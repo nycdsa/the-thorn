@@ -1,13 +1,21 @@
 'use strict';
 
-var moment = require('moment');
+var GA = require('./modules/ga');
+var Dates = require('./modules/dates');
 
-var attr = 'data-send-time'
-var sel = '[' + attr + ']'
-var dates = Array.prototype.slice.apply(document.querySelectorAll(sel))
+var Main = (function() {
 
-dates.forEach(function(dateEl) {
-	var dateStr = dateEl.getAttribute(attr)
-	var date = moment(dateStr).format('dddd, MMMM D, YYYY')
-	dateEl.innerText = date
-})
+	var initializeModules = function() {
+		new GA();
+		new Dates();
+	};
+
+	return {
+		init: function() {
+			initializeModules();
+		}
+	}
+
+}());
+
+Main.init();
