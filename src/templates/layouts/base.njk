@@ -4,12 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    {% block title %}<title>Document</title>{% endblock %}
+    {% block title %}<title>The Thorn</title>{% endblock %}
     <meta property="analytics-track" content="The Thorn">
-    <meta name="Description" content="The Thorn is a weekly news roundup of local politics by the NYC DSA.">
+    {% block meta %}
+        <meta name="Description" content="The Thorn is a weekly news roundup of local politics by the NYC DSA.">
+        <meta property="og:description" content="The Thorn is a weekly news roundup of local politics by the NYC DSA.">
+        <meta name="twitter:description" content="The Thorn is a weekly news roundup of local politics by the NYC DSA.">
+    {% endblock %}
     <meta property="og:url" content="https://www.thethorn.nyc">
     <meta property="og:title" content="The Thorn">
-    <meta property="og:description" content="The Thorn is a weekly news roundup of local politics by the NYC DSA.">
     <meta property="og:image" content="https://thethorn.nyc/images/og-img.jpg">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="The Thorn">
@@ -18,7 +21,6 @@
     <meta name="twitter:site" content="@nycthorn">
     <meta name="twitter:creator" content="@nycthorn">
     <meta name="twitter:title" content="The Thorn">
-    <meta name="twitter:description" content="The Thorn is a weekly news roundup of local politics by the NYC DSA.">
     <meta name="twitter:image" content="https://thethorn.nyc/images/og-img.jpg">
     <link rel="stylesheet" href="/main.css">
     <script tyep="text/javascript" src="/head.js"></script>
