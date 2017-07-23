@@ -13,6 +13,8 @@ module.exports = function init(name, gulp, config, tasks) {
         ], [
             tasks.html, // Depends on the output from `icons` task
             tasks.styles // Depends on output from `images` task
+        ], [
+            tasks.posts // Depends on the output from `html` task
         ]
     ];
 

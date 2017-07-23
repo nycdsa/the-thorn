@@ -55,6 +55,16 @@
 	font-weight: 900;
 	@include fluid-value(font-size, 24px, 36px);
 	line-height: 1.2em;
+	text-transform: uppercase;
+	margin-bottom: 1em;
+}
+.post-tags {
+	.post-tag {
+		display: inline-block;
+		font-weight: 800;
+		text-transform: uppercase;
+		font-size: 14px;
+	}
 }
 .post-body {
 	@include fluid-value(font-size, 18px, 24px);
@@ -87,6 +97,12 @@
 	img {
 		display: block;
 		margin: 2em auto 0 auto;
+	}
+	.post-url {
+		margin-top: 2em;
+	}
+	.post-link {
+		text-decoration: none;
 	}
 }
 .post-more {

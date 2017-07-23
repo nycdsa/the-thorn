@@ -17,9 +17,10 @@
           </div>
 	    	</header>
 	    	<article class="post-body">
-          <div class="post-html">
-            {{ post.html | safe }}
-          </div>
+				<div class="post-html">{{ post.html | safe }}</div>
+				<div class="post-url">
+					<a href="{{post.slug}}" class="post-link link-cta">Read more</a>
+				</div>
 	    	</article>
 	    </section>
     {% endfor %}

@@ -2,6 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const jetpack = require('fs-jetpack');
 
 const cheerio = require('cheerio');
 const gulpif = require('gulp-if');
@@ -9,6 +10,7 @@ const htmlbeautify = require('gulp-html-beautify');
 const htmlnano = require('gulp-htmlnano');
 const http = require('axios');
 const moment = require('moment');
+const nunjucks = require('nunjucks');
 const nunjucksRender = require('gulp-nunjucks-render');
 const pump = require('pump');
 const rename = require('gulp-rename');
@@ -77,7 +79,7 @@ const writeFile = (path, data) => {
 
 const getCampaigns = config => {
 	return new Promise((resolve, reject) => {
-		const j = path.join(config.dir.output, 'mailchimp.json');
+		const j = path.join(config.dir.dump, 'mailchimp.json');
 		fs.readFile(j, 'utf8', (err, data) => {
 			if (err && err.code === 'ENOENT') {
 				return fetchCampaignsFromMailchimp(config)
@@ -118,20 +120,48 @@ const fetchCampaignsFromMailchimp = () => {
 			});
 		}).then(sorted => {
 			return sorted.map((c, i) => {
+				// Format the HTML to return in the JSON file
 				const $ = cheerio.load(c.html);
 				delete c._links;
-
 				// strip inline styles from email html for easier
 				// formatting
 				const html = $('.bodyContainer')
 					.html()
 					.replace(/style=\"[^>]*\"/g, '');
 
+				// Add in slugs to return in the JSON file
+				const slug = createSlugAttribute(c);
+
+				// Add shortened text to display on the homepage
+				const shortenedText = createShortenedText(c);
+
 
 				return Object.assign(c, {
 					issue_number: sorted.length - i,
-					html
+					html,
+					slug: slug
 				});
 			});
 		});
+};
+
+/**
+ * Helper function to add slugs to json
+ * @param  {Object} obj 	A post object
+ * @return {[type]}     [description]
+ */
+const createSlugAttribute = (obj) => {
+	return `post/${obj.settings.subject_line.toLowerCase().split(' ').join('-').replace(/([^a-z0-9]+)/gi, '-')}`;
+};
+
+/**
+ * Helper function to get shortened text
+ * to display on the homepage
+ * @param  {Object} obj 	A post object
+ * @return {String}     	A string or html of the shortened text
+ */
+const createShortenedText = (obj) => {
+	// No idea what to do here
 }
+
+
