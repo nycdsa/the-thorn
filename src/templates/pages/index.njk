@@ -1,8 +1,13 @@
 {% extends "layouts/base.njk" %}
-{% set pageName = 'Our Story' %}
+{% set pageName = 'The Thorn' %}
 {% set pageClass = 'home' %}
 {% block title %}
     <title>The Thorn</title>
+{% endblock %}
+{% block meta %}
+	<meta name="Description" content="The Thorn is a weekly news roundup of local politics by the NYC DSA.">
+	<meta property="og:description" content="The Thorn is a weekly news roundup of local politics by the NYC DSA.">
+	<meta name="twitter:description" content="The Thorn is a weekly news roundup of local politics by the NYC DSA.">
 {% endblock %}
 
 {% block content %}

@@ -4,6 +4,11 @@
 {% block title %}
     <title>The Thorn – Newsletter</title>
 {% endblock %}
+{% block meta %}
+	<meta name="Description" content="The Thorn, issue {{ post.issue_number }}. {{ post.settings.subject_line }}">
+	<meta property="og:description" content="The Thorn, issue {{ post.issue_number }}, {{ post.settings.subject_line }}">
+	<meta name="twitter:description" content="The Thorn, issue {{ post.issue_number }}, {{ post.settings.subject_line }}">
+{% endblock %}
 
 {% block content %}
 	<div class="container thin posts-container">
