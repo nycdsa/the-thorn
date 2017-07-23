@@ -19,7 +19,9 @@ module.exports = function init(name, gulp, config, tasks) {
     ];
 
     if (config.production) {
-        build.push(tasks.rev);
+        // Cut this out for now,
+        // bc it's not putting the string on post pages
+        // build.push(tasks.rev);
     } else {
         build.push(tasks.serve);
     }
