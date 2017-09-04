@@ -1,4 +1,5 @@
 ---
+issue: 28
 layout: post
 title: Brooklyn DA race is a toss up
 permalink: issues/brooklyn-da-race-is-a-toss-up
