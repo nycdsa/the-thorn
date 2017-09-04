@@ -1,5 +1,5 @@
 ---
-date: 08-28-2017
+layout: post
 title: Brooklyn DA race is a toss up
 ---
 

@@ -1,5 +1,5 @@
 ---
-date: 08-21-2017
+layout: post
 title: Cuomo Announces Support for Congestion Pricing + Democratic Mayoral Primary Rundown
 ---
 

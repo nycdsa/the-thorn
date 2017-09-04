@@ -1,0 +1,4 @@
+source: src
+destination: dist
+
+permalink: /issues/:slug

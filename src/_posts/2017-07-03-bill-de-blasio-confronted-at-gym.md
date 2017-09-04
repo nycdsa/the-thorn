@@ -1,5 +1,5 @@
 ---
-date: 07-03-2017
+layout: post
 title: Bill de Blasio Confronted at Gym + New Brooklyn Branches
 ---
 
