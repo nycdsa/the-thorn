@@ -4,145 +4,112 @@ const fs = require('fs');
 const path = require('path');
 const jetpack = require('fs-jetpack');
 
-const cheerio = require('cheerio');
 const gulpif = require('gulp-if');
 const htmlbeautify = require('gulp-html-beautify');
 const htmlnano = require('gulp-htmlnano');
-const http = require('axios');
+const markdown = require('markdown').markdown;
 const moment = require('moment');
 const nunjucks = require('nunjucks');
 const nunjucksRender = require('gulp-nunjucks-render');
 const pump = require('pump');
 const rename = require('gulp-rename');
+const yaml = require('js-yaml');
 
-const MAILCHIMP_API = process.env.MAILCHIMP_API
-const MAILCHIMP_KEY = process.env.MAILCHIMP_KEY
-const MAILCHIMP_LIST = process.env.MAILCHIMP_LIST
 const SRC = ['**/*.njk'];
 const DEFAULT_FILENAME = 'index';
 
 module.exports = function init(name, gulp, config) {
-	const cwd = path.join(config.dir.source, 'templates');
+  const cwd = path.join(config.dir.source, 'templates');
 
-	if (!config.production) {
-		gulp.watch(SRC, {cwd: cwd}, [name])
-			.on('change', (event) => {
-				console.info(`File ${event.path} was ${event.type} —> running tasks: ${name}`);
-			});
-	}
+  if (!config.production) {
+    gulp.watch(SRC, { cwd: cwd }, [name]).on('change', event => {
+      console.info(
+        `File ${event.path} was ${event.type} —> running tasks: ${name}`
+      );
+    });
+  }
 
-	gulp.task(name, (done) => {
-		getCampaigns(config).then(posts => {
-			pump([
-				gulp.src(SRC, {cwd: path.join(cwd, 'pages')}),
-				nunjucksRender({
-					path: [
-						path.join(process.cwd(), cwd),
-						path.join(process.cwd(), config.dir.dump)
-					],
-					data: { posts }
-				}),
-				rename((file) => {
-					// Permalink pages
-					if (file.basename !== DEFAULT_FILENAME) {
-						file.dirname = file.basename;
-						file.basename = DEFAULT_FILENAME;
-					}
-				}),
-				// gulpif(config.production, htmlnano({minifySvg: false}), htmlbeautify()),
-				gulp.dest(config.dir.output)
-			],
-				done
-			);
-		}).catch(e => console.error(e));
-	});
+  gulp.task(name, done => {
+    const postDir = path.join(__dirname, '../../src/posts');
+    readPosts(postDir)
+      .then(posts => {
+        return posts.map(post => splitPost(post));
+      })
+      .then(posts => {
+        console.log('posts', posts);
+        pump(
+          [
+            gulp.src(SRC, { cwd: path.join(cwd, 'pages') }),
+            nunjucksRender({
+              path: [
+                path.join(process.cwd(), cwd),
+                path.join(process.cwd(), config.dir.dump)
+              ],
+              data: { posts }
+            }),
+            rename(file => {
+              // Permalink pages
+              if (file.basename !== DEFAULT_FILENAME) {
+                file.dirname = file.basename;
+                file.basename = DEFAULT_FILENAME;
+              }
+            }),
+            // gulpif(config.production, htmlnano({minifySvg: false}), htmlbeautify()),
+            gulp.dest(config.dir.output)
+          ],
+          done
+        );
+      })
+      .catch(e => console.error(e));
+  });
 };
 
-const get = (url, config, wait) => {
+const readDir = (path, encoding = 'utf8') => {
   return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      http.get(url, config)
-        .then(response => resolve(response))
-        .catch(err => reject(err))
-    }, wait || 10)
+    fs.readdir(path, encoding, (err, data) => {
+      if (err) return reject(err);
+
+      resolve(data);
+    });
   });
-}
+};
+
+const readFile = (path, encoding = 'utf8') => {
+  return new Promise((resolve, reject) => {
+    fs.readFile(path, encoding, (err, data) => {
+      if (err) return reject(err);
+
+      resolve(data);
+    });
+  });
+};
+
+const readPosts = postDir => {
+  return readDir(postDir).then(ls => {
+    const posts = ls.map(p => {
+      const postPath = path.join(postDir, p);
+      return readFile(postPath);
+    });
+
+    return Promise.all(posts);
+  });
+};
+
+const splitPost = str => {
+  const split = str.split('---\n');
+  const hasFrontmatter = split.length > 1;
+  const frontmatter = hasFrontmatter ? yaml.safeLoad(split[1]) : {};
+  const html = hasFrontmatter ? markdown.toHTML(split[2]) : split[0];
+  return Object.assign(frontmatter, { html });
+};
 
 const writeFile = (path, data) => {
-	return new Promise((resolve, reject) => {
-		fs.writeFile(path, JSON.stringify(data, null, 2), err => {
-			if (err) return reject(err);
-			resolve(data);
-		});
-	});
-}
-
-const getCampaigns = config => {
-	return new Promise((resolve, reject) => {
-		const j = path.join(config.dir.dump, 'mailchimp.json');
-		fs.readFile(j, 'utf8', (err, data) => {
-			if (err && err.code === 'ENOENT') {
-				return fetchCampaignsFromMailchimp(config)
-					.then(campaigns => writeFile(j, campaigns))
-					.then(campaigns => resolve(campaigns))
-					.catch(err => reject(err));
-			}
-
-			resolve(JSON.parse(data));
-		});
-	});
-};
-
-
-const fetchCampaignsFromMailchimp = () => {
-	const config = {
-		headers: { Authorization: `Bearer ${MAILCHIMP_KEY}` },
-		params: { count: 25, sort_field: 'send_time'}
-	}
-	return get(`${MAILCHIMP_API}/campaigns`, config)
-		.then(res => res.data.campaigns)
-		.then(campaigns => {
-			return campaigns.filter(d =>
-				(d.recipients.list_id === MAILCHIMP_LIST)
-			);
-		})
-		.then(campaigns => {
-			const all = campaigns.map((c, i) => {
-				const url = `${MAILCHIMP_API}/campaigns/${c.id}/content`;
-				return get(url, config, i * 50).then(res => {
-					return Object.assign({}, c, res.data);
-				});
-			});
-			return Promise.all(all);
-		}).then(content => {
-			return content.sort((a, b) => {
-				return new Date(b.send_time) - new Date(a.send_time);
-			});
-		}).then(sorted => {
-			return sorted.map((c, i) => {
-				// Format the HTML to return in the JSON file
-				const $ = cheerio.load(c.html);
-				delete c._links;
-				// strip inline styles from email html for easier
-				// formatting
-				const html = $('.bodyContainer')
-					.html()
-					.replace(/style=\"[^>]*\"/g, '');
-
-				// Add in slugs to return in the JSON file
-				const slug = createSlugAttribute(c);
-
-				// Add shortened text to display on the homepage
-				const shortenedText = createShortenedText(c);
-
-
-				return Object.assign(c, {
-					issue_number: sorted.length - i,
-					html,
-					slug: slug
-				});
-			});
-		});
+  return new Promise((resolve, reject) => {
+    fs.writeFile(path, JSON.stringify(data, null, 2), err => {
+      if (err) return reject(err);
+      resolve(data);
+    });
+  });
 };
 
 /**
@@ -150,8 +117,12 @@ const fetchCampaignsFromMailchimp = () => {
  * @param  {Object} obj 	A post object
  * @return {[type]}     [description]
  */
-const createSlugAttribute = (obj) => {
-	return `post/${obj.settings.subject_line.toLowerCase().split(' ').join('-').replace(/([^a-z0-9]+)/gi, '-')}`;
+const createSlugAttribute = obj => {
+  return `post/${obj.settings.subject_line
+    .toLowerCase()
+    .split(' ')
+    .join('-')
+    .replace(/([^a-z0-9]+)/gi, '-')}`;
 };
 
 /**
@@ -160,8 +131,6 @@ const createSlugAttribute = (obj) => {
  * @param  {Object} obj 	A post object
  * @return {String}     	A string or html of the shortened text
  */
-const createShortenedText = (obj) => {
-	// No idea what to do here
-}
-
-
+const createShortenedText = obj => {
+  // No idea what to do here
+};
