@@ -32,4 +32,9 @@
   width: 90%;
   max-width: 650px;
   margin: 0 auto;
+  svg {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
 }
