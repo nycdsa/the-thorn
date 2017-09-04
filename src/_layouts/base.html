@@ -60,12 +60,10 @@
             </nav>
         </div>
         <div class="header-logo">
-            <svg viewBox="0 0 1200 630" class="icon logo">
-                <use xlink:href="#logo"></use>
-            </svg>
+            {% include logo.svg %}
         </div>
     </header>
-    <main class='container'>
+    <main class='container thin posts-container'>
       {{ content }}
     </main>
     <footer class="footer">
@@ -84,8 +82,6 @@
             </div>
         </div>
     </footer>
-
-    {% include logo.svg %}
 </body>
 
 <!-- <script defer async src="/main.js"></script> -->
