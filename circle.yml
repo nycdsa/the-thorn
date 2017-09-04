@@ -2,5 +2,5 @@ deployment:
   prod:
     branch: master
     commands:
-      - npm run build
+      - bundle exec jekyll build
       - aws s3 sync dist/ s3://the-thorn/ --delete
