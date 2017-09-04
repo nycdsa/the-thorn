@@ -20,34 +20,35 @@
     <meta name="twitter:title" content="The Thorn">
     <meta name="twitter:image" content="https://thethorn.nyc/images/og-img.jpg">
     <link rel="stylesheet" href="/main.css">
-    <script tyep="text/javascript" src="/head.js"></script>
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
     <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
     <script>
-    (function(i, s, o, g, r, a, m) {
-  i['GoogleAnalyticsObject'] = r;
-  (i[r] =
-    i[r] ||
-    function() {
-      (i[r].q = i[r].q || []).push(arguments);
-    }), (i[r].l = 1 * new Date());
-  (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
-  a.async = 1;
-  a.src = g;
-  m.parentNode.insertBefore(a, m);
-})(
-  window,
-  document,
-  'script',
-  'https://www.google-analytics.com/analytics.js',
-  'ga'
-);
-ga('create', 'UA-103021318-1', 'auto');
-ga('send', 'pageview');
+//     (function(i, s, o, g, r, a, m) {
+//   i['GoogleAnalyticsObject'] = r;
+//   (i[r] =
+//     i[r] ||
+//     function() {
+//       (i[r].q = i[r].q || []).push(arguments);
+//     }), (i[r].l = 1 * new Date());
+//   (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+//   a.async = 1;
+//   a.src = g;
+//   m.parentNode.insertBefore(a, m);
+// })(
+//   window,
+//   document,
+//   'script',
+//   'https://www.google-analytics.com/analytics.js',
+//   'ga'
+// );
+// ga('create', 'UA-103021318-1', 'auto');
+// ga('send', 'pageview');
 </script>
 </head>
-<body class="{{ pageClass }}">
-    <div style="width:0;height:0;display:none"></div>
+<body class="">
+    <div style="width:0;height:0;display:none">
+      <svg href="/images/logo.svg" />
+    </div>
     <header class="global-header">
         <div class="header-nav">
             <a href="/" class="dsa-logo-link">
@@ -64,7 +65,7 @@ ga('send', 'pageview');
             </svg>
         </div>
     </header>
-    <main>
+    <main class='container'>
       {{ content }}
     </main>
     <footer class="footer">
@@ -84,7 +85,8 @@ ga('send', 'pageview');
         </div>
     </footer>
 
+    {% include logo.svg %}
 </body>
 
-<script defer async src="/main.js"></script>
+<!-- <script defer async src="/main.js"></script> -->
 </html>
