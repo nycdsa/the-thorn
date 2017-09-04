@@ -1,16 +1,13 @@
-{% set pageClass = pageClass|default('home') %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    {% block title %}<title>The Thorn</title>{% endblock %}
+    <title>The Thorn</title>
     <meta property="analytics-track" content="The Thorn">
-    {% block meta %}
         <meta name="Description" content="The Thorn is a weekly news roundup of local politics by the NYC DSA.">
         <meta property="og:description" content="The Thorn is a weekly news roundup of local politics by the NYC DSA.">
         <meta name="twitter:description" content="The Thorn is a weekly news roundup of local politics by the NYC DSA.">
-    {% endblock %}
     <meta property="og:url" content="https://www.thethorn.nyc">
     <meta property="og:title" content="The Thorn">
     <meta property="og:image" content="https://thethorn.nyc/images/og-img.jpg">
@@ -23,20 +20,35 @@
     <meta name="twitter:title" content="The Thorn">
     <meta name="twitter:image" content="https://thethorn.nyc/images/og-img.jpg">
     <link rel="stylesheet" href="/main.css">
-    <script tyep="text/javascript" src="/head.js"></script>
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
     <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
     <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-        ga('create', 'UA-103021318-1', 'auto');
-        ga('send', 'pageview');
-    </script>
+//     (function(i, s, o, g, r, a, m) {
+//   i['GoogleAnalyticsObject'] = r;
+//   (i[r] =
+//     i[r] ||
+//     function() {
+//       (i[r].q = i[r].q || []).push(arguments);
+//     }), (i[r].l = 1 * new Date());
+//   (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+//   a.async = 1;
+//   a.src = g;
+//   m.parentNode.insertBefore(a, m);
+// })(
+//   window,
+//   document,
+//   'script',
+//   'https://www.google-analytics.com/analytics.js',
+//   'ga'
+// );
+// ga('create', 'UA-103021318-1', 'auto');
+// ga('send', 'pageview');
+</script>
 </head>
-<body class="{{ pageClass }}">
-    <div style="width:0;height:0;display:none">{% include "icons.svg" ignore missing %}</div>
+<body class="">
+    <div style="width:0;height:0;display:none">
+      <svg href="/images/logo.svg" />
+    </div>
     <header class="global-header">
         <div class="header-nav">
             <a href="/" class="dsa-logo-link">
@@ -48,14 +60,12 @@
             </nav>
         </div>
         <div class="header-logo">
-            <svg viewBox="0 0 1200 630" class="icon logo">
-                <use xlink:href="#logo"></use>
-            </svg>
+            {% include logo.svg %}
         </div>
     </header>
-        {% block content %}
-            <h1>Base template content.</h1>
-        {% endblock %}
+    <main class='container thin posts-container'>
+      {{ content }}
+    </main>
     <footer class="footer">
         <ul class="social-links-list">
             <li class="social-links-item">
@@ -72,8 +82,7 @@
             </div>
         </div>
     </footer>
-
 </body>
 
-<script defer async src="/main.js"></script>
+<!-- <script defer async src="/main.js"></script> -->
 </html>

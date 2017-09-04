@@ -1,0 +1,5 @@
+source: src
+destination: dist
+description: The Thorn is a weekly news roundup of local politics by the NYC DSA.
+
+permalink: /issues/:slug
