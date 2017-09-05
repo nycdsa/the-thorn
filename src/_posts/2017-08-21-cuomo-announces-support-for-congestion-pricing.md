@@ -2,7 +2,6 @@
 issue: 27
 layout: post
 title: Cuomo Announces Support for Congestion Pricing + Democratic Mayoral Primary Rundown
-permalink: issues/cuomo-announces-support-for-congestion-pricing
 ---
 
 ## Local news

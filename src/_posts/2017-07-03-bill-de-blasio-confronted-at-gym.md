@@ -2,7 +2,6 @@
 issue: 20
 layout: post
 title: Bill de Blasio Confronted at Gym + New Brooklyn Branches
-permalink: issues/bill-de-blasio-confronted-at-gym
 ---
 
 ## Local News
