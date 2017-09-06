@@ -1,6 +1,5 @@
 ---
-issue: 29
-layout: post
+issue: 18
 title: City Council Endorsements roll in + 1997 UPS Teamster Strike
 ---
 

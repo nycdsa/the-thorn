@@ -1,6 +1,5 @@
 ---
-issue: 20
-layout: post
+issue: 9
 title: Bill de Blasio Confronted at Gym + New Brooklyn Branches
 ---
 
