@@ -31,7 +31,7 @@
 .post .post-body {
   h2 {
     font-weight: 900;
-    @include fluid-value(font-size, 32px, 44px);
+    @include fluid-value(font-size, 24px, 32px);
     text-transform: uppercase;
   }
   span > strong > span {
@@ -53,7 +53,7 @@
 }
 .post-title {
   font-weight: 900;
-  @include fluid-value(font-size, 24px, 36px);
+  @include fluid-value(font-size, 32px, 44px);
   line-height: 1.2em;
   text-transform: uppercase;
   margin-bottom: 1em;
