@@ -1,6 +1,5 @@
 ---
-issue: 28
-layout: post
+issue: 17
 title: Brooklyn DA race is a toss up
 ---
 

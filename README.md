@@ -1,5 +1,5 @@
 # The Thorn
-> a static website for The Thorn (https://www.thethorn.nyc)
+A static website for The Thorn (https://www.thethorn.nyc) - [**Subscribe** now](http://nyc.us15.list-manage.com/subscribe?u=6533003d659976f89bf858d09&id=f3405fc230)
 
 [![CircleCI](https://circleci.com/gh/nycdsa/the-thorn.svg?style=svg)](https://circleci.com/gh/nycdsa/the-thorn)
 

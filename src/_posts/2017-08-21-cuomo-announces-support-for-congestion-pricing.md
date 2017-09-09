@@ -1,6 +1,5 @@
 ---
-issue: 27
-layout: post
+issue: 16
 title: Cuomo Announces Support for Congestion Pricing + Democratic Mayoral Primary Rundown
 ---
 

@@ -1,5 +1,16 @@
+title: The Thorn
+description: The Thorn is a weekly news roundup of local politics by the NYC DSA.
+url: https://www.thethorn.nyc
+
 source: src
 destination: dist
-description: The Thorn is a weekly news roundup of local politics by the NYC DSA.
+permalink: /posts/:slug/
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "post"
 
-permalink: /issues/:slug/
+twitter: nycthorn
