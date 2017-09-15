@@ -1,5 +1,5 @@
 ---
-issue: 15
+issue: 26
 title: Squadron Leaves Voters in the Lurch + Brooklyn DA Race
 ---
 
