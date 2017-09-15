@@ -1,5 +1,5 @@
 ---
-issue: 12
+issue: 24
 title:  Greenfield Shakes Up City Council + Excelsior Scholarships
 ---
 
