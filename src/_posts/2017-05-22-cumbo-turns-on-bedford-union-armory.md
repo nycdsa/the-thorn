@@ -1,5 +1,5 @@
 ---
-issue: 5
+issue: 14
 title: Cumbo turns on the Bedford Union Armory + AT&T Strike!
 ---
 
