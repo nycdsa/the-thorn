@@ -1,5 +1,5 @@
 ---
-issue: 25
+issue: 24
 title: MTA Woes Continue + Tips for Avoiding Competitive Elections!
 ---
 
