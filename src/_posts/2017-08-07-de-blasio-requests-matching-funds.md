@@ -1,5 +1,5 @@
 ---
-issue: 26
+issue: 25
 title: De Blasio Requests Matching Funds + Bedford-Union Armory Town Hall Recap
 ---
 
