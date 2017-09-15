@@ -1,5 +1,5 @@
 ---
-issue: 3
+issue: 12
 title: DSA Endorses El-Yateem for City Council + New York State Liberty Act
 ---
 
