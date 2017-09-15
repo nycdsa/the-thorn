@@ -1,5 +1,5 @@
 ---
-issue: 11
+issue: 23
 title: Mayor Endorses Bedford-Union Armory Plan + Brooklyn District Attorney Forum this Thursday
 ---
 
