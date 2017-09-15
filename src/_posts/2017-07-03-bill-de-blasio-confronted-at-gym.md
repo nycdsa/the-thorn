@@ -1,5 +1,5 @@
 ---
-issue: 21
+issue: 20
 title: Bill de Blasio Confronted at Gym + New Brooklyn Branches
 ---
 
