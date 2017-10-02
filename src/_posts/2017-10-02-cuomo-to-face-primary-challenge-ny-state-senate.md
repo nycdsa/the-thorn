@@ -1,0 +1,39 @@
+---
+issue: 33
+title: Cuomo To Face Primary Challenge + NY State Senate
+---
+
+## Local News
+-   Echoing a recently vacated corruption charge against former Assembly Speaker Sheldon Silver, [a federal appeals panel overturned former State Senate Majority Leader Dean Skelos' 2015 corruption conviction](https://www.nytimes.com/2017/09/26/nyregion/dean-skelos-2015-corruption-conviction-overturned.html?hp&action=click&pgtype=Homepage&clickSource=story-heading&module=nygeo-promo-region&region=nygeo-promo-region&WT.nav=nygeo-promo-region&_r=0) that forced him to step down.
+-   At a hearing last month, City Council members [questioned NYPD officials about the slow pace of crisis intervention training](http://www.gothamgazette.com/city/7216-as-deaths-mount-scrutiny-of-nypd-response-to-emotionally-disturbed-persons). The night of the hearing, [police officers shot and killed a man](https://www.nytimes.com/2017/09/14/nyregion/police-body-camera-footage-new-york.html?mcubz=1) having a mental crisis in the Bronx.
+-   The MTA is [demanding money from the City before fully implementing its plan](http://www.nydailynews.com/amp/new-york/mta-cut-836m-subway-repair-work-de-blasio-doesn-pay-article-1.3526227) for needed repairs.
+-   In other MTA news, the agency announced a plan to [add digital screens for ads to subway cars and platforms](http://gothamist.com/2017/09/27/video_ads_subway_nyc.php).
+-   Mayor de Blasio is embarrassing himself in trying to [lure a new Amazon headquarters to NYC](http://gothamist.com/2017/09/28/amazon_walmart_de_blasio_hypocrisy.php), which is hypocritical considering his history as Public Advocate when he vocally opposed the incursion of another union-busting, monopolistic corporation into the City: Walmart.
+-   The New York City Council is [considering the Housing Not Warehousing Act](https://citylimits.org/2017/09/29/is-housing-not-warehousing-next/), to put vacant land to productive use.
+-   IDC Senator Marisol Alcántara accused a [coalition of housing advocates of sending racist emails](https://citylimits.org/2017/09/26/alcantara-tries-to-substantiate-charges-of-racism-clarifies-position-on-rezoning/), but could not provide evidence. She is the latest member of the IDC to [accuse its critics of racism](http://gothamist.com/2017/02/15/jeff_klein_calls_criticism_of_new_i.php).
+-   The [Working Families Party provides a blueprint for left-wing electoral progress](http://inthesetimes.com/article/20553/left-working-families-party-dsa-labor), according to two NYC-DSA members writing for In These Times.
+
+## Elections
+-   Syracuse mayor Stephanie Miner appears to be serious about[ challenging Governor Cuomo from the left in the 2018](https://www.villagevoice.com/2017/09/28/meet-the-woman-who-wants-to-end-cuomos-centrist-reign/) Democratic gubernatorial primary.
+-   Council Member Jumaane Williams' [ambiguous views on abortion and gay marriage](http://www.politico.com/states/new-york/albany/story/2017/09/25/in-crowded-speakers-race-one-councilmans-conservative-views-may-be-a-deal-breaker-114678) may harm his chances in this January's city council speaker race.
+-   Governor Cuomo could [further tip the scales of the State Senate into Republican/IDC hands](https://www.villagevoice.com/2017/09/26/cuomo-could-throw-state-senate-to-republicans-by-stalling-on-special-elections/) for the next year if he fails to call for timely special elections in two soon-to-be-vacant Senate districts currently held by Democrats.
+-   Gotham Gazette has a list of [10 races to watch for the general election](http://www.gothamgazette.com/city/7217-10-races-more-to-watch-in-the-general-election), including District 35, where DSA-endorsee Jabari Brisport is running on the Green and Socialist ballot lines.
+-   Christine Parker wrote an op-ed [explaining why she is running as a Republican in District 35](http://www.kingscountypolitics.com/op-ed-christine-parker-became-republican/): "In all honesty, it's all semantics!"
+-   Nassau and Westchester County's Republican county executives are both facing [stiff competition from Democrats in this November's general election](https://www.nytimes.com/2017/09/21/nyregion/county-executive-astorino-latimer-martins-curran-election.html).
+
+## In-Depth: NY State Senate
+One confusing feature of New York State government is its Senate, which is under Republican control, and has been controlled by Republicans with only brief interruptions since before World War II. How has a party that is outnumbered more than 2-1 by Democrats in New York State maintained such a stronghold on the upper house of the state legislature? The oft-blamed Independent Democratic Conference (IDC) is part of the problem, but the real answer lies in the rules governing apportionment in the State Senate.
+
+The NY Senate was modeled on the US Senate, with representation by county, as opposed to the Assembly, which has representation by population. That is why, until 2012, we had 62 Senators --- because NY has 62 counties. As a result, traditionally Republican upstate counties were overrepresented in the Senate (much in the way small states are overrepresented in the US Senate), while the traditionally Democratic counties near New York City were underrepresented. After a series of Supreme Court cases in the early 1960s declared this a violation of "one man, one vote," New York had to give up county representation.
+
+But the Democrats and Republicans were comfortable each dominating one house, with Dems controlling the Assembly and the GOP the Senate. So rather than upset the status quo, they used the SCOTUS-approved wiggle room that allows districts to be 5% bigger or smaller than the state average to create districts that mirrored the old districts. Ever since then, in both the Senate and the Assembly, each representative has determined the boundaries of his or her district. It's a very stable system.
+
+As the state has become steadily more Democratic, the Republican majority has become narrower. But the system stays stable for three main reasons:
+
+1) Governors love this, since a divided legislature puts more power in their hands. This was how[  NY got the 63rd seat in 2012](http://www.nydailynews.com/news/new-york-republicans-moving-add-seat-62-member-senate-court-battle-follow-article-1.1002053): in the wake of the 2010 census redistricting, Cuomo helped the Republicans shore up their position after they very briefly lost it.
+
+2) The Republicans devote all their energy to defending their control of the Senate and have developed a strategy of buying off individual Democrats with money or immunity to switch to their side when it's threatened. In 2009, for example, Democrats lost another brief hold on the Senate when Hiram Monserrate and Pedro Espada, both Dems, voted for Republican Majority Leader Dean Skelos. Simcha Felder and the IDC have since done the same.
+
+3) The most recent factor is the huge pay disparity between City Council seats ($148k) and Senate seats ($80k base pay). State Senators representing districts in New York City---almost all Democrats---will often run for open City Council seats, as current City Council member Bill Perkins did and current candidate Ruben Diaz is doing. Every time a Senator does this, their seat remains vacant until the Governor calls a special election. The Governor has complete leeway here, and last year the special election was not held until the end of May, after all negotiations were over. Because the legislature is only in session for 60 business days, when seats are held open that long, any Democratic Senator who moves to the City Council effectively decreases the size of the Senate Caucus for the full legislative term.
+
+The NY State Senate is extremely likely to be Republican for the foreseeable future, until we get non-partisan districting. Then it would be massively Democratic.
