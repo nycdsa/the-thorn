@@ -1,7 +1,7 @@
 .archive-post {
-  padding-bottom: 4em;
-  margin-bottom: 2.5em;
-  border-bottom: 1px solid $black;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid $red;
   &:last-child {
     border-bottom: none;
     padding-bottom: 0;
@@ -10,15 +10,11 @@
 }
 
 .archive-date-header {
-  border: 2px solid $red;
-  border-left-width: 0px;
-  border-right-width: 0px;
-  display: flex;
-  font-weight: 700;
-  justify-content: space-between;
-  margin-top: 1rem;
-  margin-bottom: 1.7rem;
-  padding-bottom: .5rem;
-  padding-top: .5rem;
-  text-transform: uppercase;
+    font-weight: 700;
+    justify-content: space-between;
+    /* margin-top: 1rem; */
+    margin-bottom: 1.7rem;
+    padding-bottom: .5rem;
+    /* padding-top: .5rem; */
+    text-transform: uppercase;
 }
