@@ -12,7 +12,7 @@
     }
     .social-link {
         display: block;
-        &.email {
+        &.thorn-email {
             background-image: url('images/social-email_lg_2x.png');
             @include image-size(50px, 50px);
         }
