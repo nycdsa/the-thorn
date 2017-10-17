@@ -59,18 +59,7 @@ nav ul li {
 nav ul li:not(:first-child) {
   margin-left: 25px;
 }
-nav ul li a {
-  display: inline-block;
-  outline: none;
-  color: #1f2227;
-  font-size: 16px;
-  text-decoration: none;
-  letter-spacing: 0.04em;
-}
-nav ul li a:hover {
-  color: #808080;
-  text-decoration: none;
-}
+
 @media screen and (max-width: 560px) {
   .nav-container {
     position: fixed;
