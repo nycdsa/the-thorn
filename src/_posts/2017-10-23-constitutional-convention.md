@@ -19,7 +19,7 @@ title: District Attorney donations fallout spreads to Brooklyn + Constitutional 
 
 ## In-Depth: Constitutional Convention
 
-Every twenty years, New Yorkers get to decide at the polls whether to hold a convention where specially elected delegates have the opportunity to amend---or wholesale rewrite---the state's constitution. A constitutional convention---usually shortened to "Con Con" in the interest of efficiency, if not mellifluence---presents both significant risks and opportunity for the left.
+Every twenty years, New Yorkers get to decide at the polls whether to hold a convention where specially elected delegates have the opportunity to amend—or wholesale rewrite—the state's constitution. A constitutional convention—usually shortened to "Con Con" in the interest of efficiency, if not mellifluence—presents both significant risks and opportunity for the left.
 
 **Con Con Basics**
 
