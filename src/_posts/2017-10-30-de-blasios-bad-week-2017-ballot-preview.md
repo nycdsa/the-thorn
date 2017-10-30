@@ -28,7 +28,7 @@ Before this year's general election on November 7, 2017, you can find your polli
 
 **CITYWIDE RACES**
 
-Every voter in the City will have the opportunity to vote on three citywide positions: Mayor, Public Advocate, and Comptroller. In all three races, a heavily favored incumbent is running for reelection on both the Democratic and Working Families Party lines.
+Every voter in the City will have the opportunity to vote on three citywide positions: **Mayor**, **Public Advocate**, and **Comptroller**. In all three races, a heavily favored incumbent is running for reelection on both the Democratic and Working Families Party lines.
 
 Mayor De Blasio's challengers include two of his opponents in the Democratic primary --- Sal Albanese (now running on the Reform line) and Michael Tolkin (now running on the Smart Cities line). He also faces Akeem Browder (Green Party), Aaron Commey (Libertarian), Bo Dietl (Dump the Mayor), and Nicole Malliotakis (Republican, Conservative, Stop de Blasio).
 
@@ -38,16 +38,16 @@ City Comptroller Scott Stringer faces three opponents: Michel J. Faulkner (Repub
 
 **BOROUGHWIDE RACES**
 
-Every voter in the City will have the opportunity to vote on at least one borough-wide race: Borough President. Voters outside of Staten Island will also vote for borough-wide Justices of the Supreme Court ("Supreme Court" is what New York State calls its trial-level courts), and voters in Manhattan and Brooklyn will vote for borough-wide District Attorneys.
+Every voter in the City will have the opportunity to vote on at least one borough-wide race: **Borough President**. Voters outside of Staten Island will also vote for borough-wide **Justices of the Supreme Court** ("Supreme Court" is what New York State calls its trial-level courts), and voters in Manhattan and Brooklyn will vote for borough-wide **District Attorneys**.
 
 All five incumbent Borough Presidents are running for reelection. Few judicial elections in New York City are competitive. In Manhattan, DA Cy Vance is running unopposed, but Marc Fliedner has staged a last-minute write-in campaign after Vance was hit with a series of scandals. In Brooklyn, DA Eric Gonzalez's only opponent is Vincent Gentile, who was defeated in the Democratic primary and is now running on the Reform Line.
 
 **OTHER RACES**
 
-Every voter in the City will have the opportunity to vote for a City Council Member and a Judge of the Civil Court. The latter, like Supreme Court races, are rarely competitive. And while most City Council districts are dominated by Democratic incumbents, there are a few competitive seats in 2017.
+Every voter in the City will have the opportunity to vote for a **City Council Member** and a **Judge of the Civil Court**. The latter, like Supreme Court races, are rarely competitive. And while most City Council districts are dominated by Democratic incumbents, there are a few competitive seats in 2017.
 
 **BALLOT PROPOSALS**
 
-Every voter in New York will have the opportunity on three ballot proposals: 1) [Con Con!](https://thethorn.nyc/posts/constitutional-convention/#in-depth-constitutional-convention) 2) Whether public officers convicted of certain felonies ought to lose some or all of their pensions. 3)  Authorizing the Use of Forest Preserve Land for Specified Purposes. View the specific wording of the Ballot Proposals below:
+Every voter in New York will have the opportunity on three ballot proposals: **1)** [Con Con!](https://thethorn.nyc/posts/constitutional-convention/#in-depth-constitutional-convention) **2)** Whether public officers convicted of certain felonies ought to lose some or all of their pensions. **3)**  Authorizing the Use of Forest Preserve Land for Specified Purposes. View the specific wording of the Ballot Proposals below:
 
 !["sample-ballot.jpg"](https://raw.githubusercontent.com/nycdsa/the-thorn/master/src/images/sample-ballot.jpg)
