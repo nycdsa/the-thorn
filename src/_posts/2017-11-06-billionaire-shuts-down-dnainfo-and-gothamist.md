@@ -37,7 +37,6 @@ His actions crystalize our need for strong public media. Profit-driven journalis
 
 Jimmy Wales, founder of Wikipedia, has said that he is thinking about [buying](https://twitter.com/jimmy_wales/status/926491190215798786)  DNAinfo and Gothamist.
 
-People are starting to [organize](http://gothamistinexile.com/2017/11/04/what-we-learned-in-24-hours/).
 
 The Writers Guild of America East has organized a solidarity [rally](https://www.facebook.com/events/138735750108011/) at City Hall Park at 1 PM.
 
