@@ -4,7 +4,7 @@ title: The NYC General Election is Tuesday, November 7th + Billionaire Shuts Dow
 ---
 
 ## Local News
--   The [closure](http://www.npr.org/sections/thetwo-way/2017/11/03/561830256/billionaire-owner-shuts-down-dnainfo-gothamist-sites-a-week-after-workers-unioni) of DNAinfo and Gothamist further highlight the [collapse](https://www.cjr.org/local_news/local-news-new-york-city.php) of local news journalism in NYC, leaving many political issues, especially those in the outer boroughs, entirely without coverage
+-   The [closure](http://www.npr.org/sections/thetwo-way/2017/11/03/561830256/billionaire-owner-shuts-down-dnainfo-gothamist-sites-a-week-after-workers-unioni) of DNAinfo and Gothamist further highlight the [collapse](https://www.cjr.org/local_news/local-news-new-york-city.php) of local news journalism in NYC, leaving many political issues, especially those in the outer boroughs, entirely without coverage.
 -   Two NYPD Detectives plead [not guilty](http://www.cnn.com/2017/10/31/us/nypd-detectives-rape-charges/index.html) to the rape of an 18-year-old Brooklyn woman they had detained and handcuffed in the back of their police van. In response to the incident, Council Member Mark Treyger (District 47, Coney Island) has begun drafting legislation to make any situation in which a police officer has sex with a detainee [automatically](https://theintercept.com/2017/11/02/nypd-rape-charges-new-york-law/) recognized as rape under New York State Law. Present NYPD policy makes such situations punishable as misconduct but there is currently no city or state law specifically making such behavior [illegal](http://www.nydailynews.com/new-york/brooklyn/sex-person-custody-clear-crime-pol-article-1.3585554).
 -   The Police Reform Organizing Project released [a report](http://amsterdamnews.com/news/2017/nov/02/report-arrests-marijuana-possession-continue-despi/) showing the NYPD is still arresting people for marijuana possession. Despite mayor Bill de Blasio's claims to have ended the practice, there have been more than 13,500 arrests in 2017, averaging 50 arrests a day.
 -   The New York City Comptroller's Office released a report suggesting "[deep dysfunction](http://www.gothamgazette.com/city/7296-ahead-of-election-day-comptroller-audit-highlights-board-of-elections-dysfunction)" in the City Board of Elections.
@@ -35,9 +35,7 @@ Joe Ricketts, the billionaire Trump-supporting CEO and owner, claims the shutdow
 
 His actions crystalize our need for strong public media. Profit-driven journalism can be [compromised](https://jezebel.com/gothamist-deleted-negative-coverage-of-its-new-owner-1793085352) in all sorts of ways, and is ultimately contingent on the whims of billionaires like Ricketts and [Peter Thiel](https://www.forbes.com/forbes/welcome/?toURL=https://www.forbes.com/sites/mattdrange/2016/06/21/peter-thiels-war-on-gawker-a-timeline/&refURL=https://www.google.com/&referrer=https://www.google.com/). Efforts to unionize draw the ire of corporate media, which is precisely why such efforts are important. It is particularly risky for media workers to unionize today, but unions are a crucial safeguard to ensure that the work of independent media outlets is not manipulated by their owners.
 
-Jimmy Wales, founder of Wikipedia, has said that he is thinking about [buying](https://twitter.com/jimmy_wales/status/926491190215798786)  DNAinfo and Gothamist.
-
-
+Jimmy Wales, founder of Wikipedia, has said that he is thinking about [buying](https://twitter.com/jimmy_wales/status/926491190215798786)  DNAinfo and Gothamist.\
 The Writers Guild of America East has organized a solidarity [rally](https://www.facebook.com/events/138735750108011/) at City Hall Park at 1 PM.
 
 ![](https://raw.githubusercontent.com/nycdsa/the-thorn/master/src/images/23131877_10159510025570076_3226008229382293351_n.jpg)
