@@ -29,7 +29,7 @@ We are now at a major turning point in this campaign.
 
 Last week, with the blessing of Council-member Laurie Cumbo, the Bedford Union Armory project passed through the city council subcommittee and committee stages of the final council approval process. The project changed significantly. Here is how:
 
-![alt text](https://github.com/nycdsa/the-thorn/blob/master/src/images/11-27-table.png "Table")
+!["Table"](https://raw.githubusercontent.com/nycdsa/the-thorn/master/src/images/11-27-table.png)
 
 Calling the deal "revolutionary," Council Member Laurie Cumbo is prepared to approve the project on Thursday, November 30th at the 1:00 PM City Council stated meeting.
 
