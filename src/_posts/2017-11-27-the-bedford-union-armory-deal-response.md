@@ -39,5 +39,6 @@ But it's just a fraction of what the community has been fighting for. We didn't 
 
 In response,  DSA is planning twitter rallies every day at 12:00 tagging Laurie Cumbo and reminding her that she ran her campaign on promise of 100% affordability at the Bedford Armory. Please tweet and retweet! A Facebook event with sample social media content is [here](https://www.facebook.com/events/133405840708234/) and [here](http://killthedeal.org/socialmediakit/).
 
-Our coalition is planning an action on Thursday, November 30th at 12:00 for the FINAL VOTE. We'll be on the steps of City Hall in Manhattan. Join us, and invite your friends! RSVP to the Facebook invitation [here](https://www.facebook.com/events/1800868596878398/).\
+Our coalition is planning an action on Thursday, November 30th at 12:00 for the FINAL VOTE. We'll be on the steps of City Hall in Manhattan. Join us, and invite your friends! RSVP to the Facebook invitation [here](https://www.facebook.com/events/1800868596878398/).
+
 Thanks to everyone for working so hard on this fight for the last year and a half. If you have any questions about the Armory fight or where we are in the process, please reach out to Cea Weaver at <cea.weaver@gmail.com>.
