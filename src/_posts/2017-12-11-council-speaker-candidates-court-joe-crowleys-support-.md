@@ -19,6 +19,8 @@ title: Council Speaker Candidates Court Joe Crowley’s Support
 
 ## In-Depth: The Race for City Council Speaker
 
+!["City Council Speaker"](https://raw.githubusercontent.com/nycdsa/the-thorn/master/src/images/thorn-12-11.jpg)
+
 In the New York City political landscape, the City Council Speaker is the second most important elected official. As the leader of the New York City Council, the Speaker is the main check on  the Mayor's power. For example, the Council can vote to override the Mayor's decision to veto legislation and turn a formerly rejected bill into a law.
 
 As head of a 51-person Council, the Speaker balances an $8 billion dollar budget, leads urban planning and land use for the five boroughs, and ushers legislation into law. The Speaker also oversees committee chairman positions, as well as other Council jobs. Most significantly, the Speakership is a highly visible avenue for greater political ascension; many former speakers have run for Mayor.
