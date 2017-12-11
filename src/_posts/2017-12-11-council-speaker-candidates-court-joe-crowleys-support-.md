@@ -23,7 +23,8 @@ In the New York City political landscape, the City Council Speaker is the second
 
 As head of a 51-person Council, the Speaker balances an $8 billion dollar budget, leads urban planning and land use for the five boroughs, and ushers legislation into law. The Speaker also oversees committee chairman positions, as well as other Council jobs. Most significantly, the Speakership is a highly visible avenue for greater political ascension; many former speakers have run for Mayor.
 
-As of the 2017 elections, the Council is made of 47 Democrats and only 4 Republicans. Given the dominance of the Democratic Party, the Speaker wields immense power by choosing what legislation to bring to the floor. For example, the recent repeal of the antiquated Cabaret Law, which made dancing illegal in New York venues without a tedious and expensive license, had almost unanimous support on the Council well before finally being brought to a vote. Right now, the Right to Know Act, a legislative package that would demand increased NYPD transparency and stronger protection of civil rights, is being similarly held up.\
+As of the 2017 elections, the Council is made of 47 Democrats and only 4 Republicans. Given the dominance of the Democratic Party, the Speaker wields immense power by choosing what legislation to bring to the floor. For example, the recent repeal of the antiquated Cabaret Law, which made dancing illegal in New York venues without a tedious and expensive license, had almost unanimous support on the Council well before finally being brought to a vote. Right now, the Right to Know Act, a legislative package that would demand increased NYPD transparency and stronger protection of civil rights, is being similarly held up.
+
 The Speaker race is an internal contest among the Council Members themselves, with a simple majority vote to decide the winner. Traditionally, support has been cultivated via borough representation, Council caucuses, and perhaps most importantly, through intense political allegiances, coalitions, and backroom deal-making.
 
 **CURRENT SPEAKER**
@@ -34,7 +35,8 @@ Previous speakers, such as Gifford Miller (2002-2005) and [Christine Quinn](http
 
 However, Mark-Viverito's descension has been fraught with controversy---namely, for potentially abusing her Speaker power in her last weeks.
 
-Although the City Council can overrule party recommendations for nominations to the Board of Elections, the Manhattan Democratic party is suing Mark-Viverito for such a recommendation in favor of her friend, environmental lawyer Andy Praschak.\
+Although the City Council can overrule party recommendations for nominations to the Board of Elections, the Manhattan Democratic party is suing Mark-Viverito for such a recommendation in favor of her friend, environmental lawyer Andy Praschak.
+
 Also, as recently as Monday, the Speaker banned all press from the eastern end of the City Hall building---breaking a decades-long open door media policy and drawing the ire of local press. The ban was purportedly intended to keep Council matters, especially transitional decisions, more private. On Tuesday, the Speaker [reversed](https://nypost.com/2017/12/05/mark-viverito-reverses-her-ban-on-reporters-in-city-hall/) a portion of the ban.
 
 **POTENTIAL SUCCESSORS**
@@ -49,7 +51,8 @@ Eight Council Members are fiercely jockeying to be Mark-Viverito's successor, no
 -   Jumaane Williams of Brooklyn's 45th District (Flatbush, Canarsie, Midwood). Although occasionally touted as a further-left voice within the Progressive Caucus, he has had to [clarify his positions](https://www.kingscountypolitics.com/williams-clarifies-position-marriage-equality-womens-right-choose/) on same-sex marriage and abortion rights.
 -   Robert Cornegy Jr of Brooklyn's District 36 (Bedford-Stuyvesant, Crown Heights). The only candidate not in the Progressive Caucus.
 
-What's striking about this election is the way it fractured existing caucuses and presumptive voting blocs---seven candidates belong to the Progressive Caucus, three to the LGBT Caucus, and five are in the Black, Latino/a, and Asian Caucus. Most notable is the splintering of the Progressive Caucus, the once-unified front that gave Mark-Viverito her victory in 2014.\
+What's striking about this election is the way it fractured existing caucuses and presumptive voting blocs---seven candidates belong to the Progressive Caucus, three to the LGBT Caucus, and five are in the Black, Latino/a, and Asian Caucus. Most notable is the splintering of the Progressive Caucus, the once-unified front that gave Mark-Viverito her victory in 2014.
+
 Naturally, identity politics is key for the second most powerful political figure representing New York City's richly diverse populace. The possibility of another white male leader (along with  Governor Andrew Cuomo, Mayor Bill de Blasio, and Attorney General Eric T. Schneiderman), especially with the shrinking number of women on the Council, has been a main point of contention, especially since there has never been an African-American Speaker before.
 
 The candidates have been heavily [emphasizing](https://www.nytimes.com/2017/11/07/nyregion/nyc-council-speaker-race.html) each of their intersectional identities as further qualifications for the next four years. Five are black, two are Latino, and three are gay. Other factors mentioned are being multilingual community leaders, products of the NYC public school system, as well as overcoming hardships such as addiction, homelessness, and learning disabilities.
