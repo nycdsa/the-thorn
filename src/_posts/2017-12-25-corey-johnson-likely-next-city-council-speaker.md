@@ -3,7 +3,7 @@ issue: 45
 title: Corey Johnson Likely Next City Council Speaker + Compromised Right to Know Act Bill Passes
 ---
 
-## Local News
+## Local News 
 -   Corey Johnson has apparently [secured enough votes](https://patch.com/new-york/new-york-city/corey-johnson-has-votes-become-council-speaker-reports-say) to become the next City Council Speaker by brokering a deal with the Bronx and Queens Democratic Party leaders. The official vote from City Council will happen in January. The decision was apparently [timed](http://www.nystateofpolitics.com/2017/12/mayor-gets-rolled-in-speaker-race/) by the Queens and Bronx Democratic machines to occur unbeknownst to the Mayor while he was in Iowa. Council Members Robert Cornegy and Jumaane Williams have refused to concede to Johnson, [protesting](http://cityandstateny.com/articles/politics/campaigns-and-elections/new-york-city-council-speaker-candidates-concede-to-corey-johnson.html#.Wj6SmPZOnCI) the lack of people of color in power at City Hall.
 -   Crain's highlights that Johnson has received [over $63,000](http://www.crainsnewyork.com/article/20171221/POLITICS/171229979/real-estate-execs-made-63000-investment-in-new-city-council-speaker) in campaign contributions from real estate interests, including $10k from the developer of the Hudson Yards, which is in his district.
 -   The federal tax bill recently signed into law portends doom for both the [State](http://www.gothamgazette.com/state/7370-state-faces-budget-deficit-ahead-of-possible-gut-punch-from-washington) and [City](https://www.politico.com/states/new-york/city-hall/story/2017/12/19/not-just-salt-gop-tax-plan-holds-other-dangers-for-citys-budget-153736) budget.
