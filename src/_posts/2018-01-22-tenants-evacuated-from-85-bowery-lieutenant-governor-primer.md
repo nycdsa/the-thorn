@@ -26,7 +26,7 @@ While the Lieutenant Governor is elected as part of a ticket with a Governor in 
 
 In the 2014 Democratic primary, for example, Gov. Cuomo[  selected](http://wivb.com/2014/05/22/hochul-addresses-democrats-at-convention/) his current Lieutenant, Kathy Hochul, at the state Democratic convention, and his challenger, Zephyr Teachout, ran with Tim Wu. Each half of the "ticket" received roughly equal shares of the vote. With no credible challengers  currently known to be challenging Gov. Cuomo this fall, Williams' candidacy for the Lieutenant position raises the question of what one can achieve in the position.
 
-*LIEUTENANT GOVERNOR'S DUTIES*
+**LIEUTENANT GOVERNOR'S DUTIES**
 
 Although the position of Lieutenant Governor is written into the New York State Constitution, and has existed since the State's inception, it has few formal powers. Much like the Vice President of the United States, the Lieutenant Governor is first in line to succeed the Governor, and serves as President of the State Senate, casting votes in the event of a tie. Beyond that, the role is loosely defined. In the 2018 State [budget](https://www.budget.ny.gov/pubs/archive/fy18archive/exec/agencyPresentations/appropData/LieutenantGovernorOfficeofthe.html), the Office of the Lieutenant Governor was allotted a mere $630,000 and seven FTEs (full-time equivalent staff members). By contrast, the Executive Chamber, which includes the Governor's immediate staff, has a budget of over $17.8 million, with 136 FTEs.
 
@@ -34,7 +34,7 @@ As a result, the Lieutenant Governor effectively serves at the discretion of the
 
 More typically, Lieutenant Governors serve on task forces, advisory boards, and councils, and any recommendations made by these bodies can be pursued or ignored at the Governor's discretion. Generally, they are used as a way to promote the Governor's legislative initiatives and generate good press for the Governor. This is essentially the role that the current Lieutenant Governor, Kathy Hochul, has played since her election in 2014. She[  heads](https://www.governor.ny.gov/aboutlieutenantgovernor) a task force on opioid addiction, and has been a visible promoter of the Governor's "Enough Is Enough" legislation to end sexual assault on college campuses.
 
-*2018*
+**2018**
 
 Williams' entry to the campaign has sparked rumors about a shakeup in the position of Lieutenant Governor. One such rumor is that Hochul will vacate the position to challenge US Congressman Chris Collins, who narrowly defeated her in 2012. Another is that Cuomo will select Rochester Mayor Lovely Warren to replace her as his running mate this year. While both women have so far[  denied](https://www.democratandchronicle.com/story/news/politics/albany/2018/01/16/lovely-warren-lieutenant-governor-speculation-starts/1038037001/) the rumors, the speculation is understandable: Hochul could be a strong candidate in a tough race against a Republican Congressman tied closely to Trump.
 
