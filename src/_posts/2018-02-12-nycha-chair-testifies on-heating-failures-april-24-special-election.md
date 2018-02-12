@@ -2,7 +2,7 @@
 issue: 51
 title: NYCHA Chair Testifies on Heating Failures + April 24 Special Elections 
 ---
-
+ 
 ## Local News
 -   The New York City Housing Authority (NYCHA) admitted at a City Council hearing that [over 300,000](https://www.wsj.com/articles/anger-as-new-york-city-public-housing-residents-go-without-heat-hot-water-1517961207) of their public housing residents (80 percent of their units) have been [without heat](https://www.politico.com/states/new-york/city-hall/story/2018/02/06/sparked-by-heat-outages-nychas-widespread-problems-laid-bare-at-contentious-hearing-241127) this season. NYCHA blames the loss of over $3 billion of federal aid. NYCHA Chair Shola Olatoye once again [testified](http://www.nydailynews.com/new-york/embattled-nycha-chairwoman-testifies-heating-systems-failure-article-1.3803137) before the City Council about the heating failures, after misleading Council Members in December about inspections that had been performed. In a rare move, she was accompanied by City attorney Zachary Carter for this most recent testimony.
 -   Mayor De Blasio and Police Commissioner James O'Neill, have pushed back against Manhattan DA's Cyrus Vance [stated policy](https://www.amny.com/news/turnstile-jumping-de-blasio-1.16587067) of not prosecuting people for jumping subway turnstiles. MTA Chairman Joe Lhota also opposed Vance's move. Meanwhile, court watchers say that Vance's office has not been adhering to the reformist policies he has [publicly announced](https://www.villagevoice.com/2018/02/08/vances-das-wont-stop-throwing-the-book-at-petty-crime/).
