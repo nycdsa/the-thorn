@@ -1,0 +1,16 @@
+image: circleci/ruby:2-node
+
+before_script:
+  - sudo apt-get install -y awscli
+  - bundle install
+
+stages:
+  - deploy
+
+push_to_s3:
+  stage: deploy
+  script:
+    - bundle exec jekyll build
+    - aws s3 sync dist/ s3://the-thorn/ --delete
+  only:
+    - master
