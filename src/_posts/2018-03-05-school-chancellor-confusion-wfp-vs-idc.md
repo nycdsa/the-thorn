@@ -3,7 +3,7 @@ issue: 54
 title: School Chancellor Confusion + WFP Vs. IDC
 ---
  
-## Local News
+## Local News 
 -   City Hall suffered a [major setback](https://www.politico.com/states/new-york/albany/story/2018/03/01/carvalho-shocker-leaves-city-hall-scrambling-287235) this week when Alberto Carvalho, Mayor de Blasio's pick for new NYC School Chancellor, reneged on his initial decision to accept the offer. Carvalho chose to [stay in Miami-Dade](http://miami.cbslocal.com/2018/03/01/miami-dade-superintendent-may-be-leaving-south-florida-for-the-big-apple/) after a dramatic meeting with his school board, in which he apparently asked for a recess so he could call de Blasio to break the agreement they had in place.
 -   The NYPD is facing heavy criticism this week due to the release of [statistics](http://observer.com/2018/02/new-york-police-marijuana-enforcement/?mc_cid=e74770d57f&mc_eid=1a9d72cbc4) showing that 86% of [marijuana arrests](http://www.nydailynews.com/new-york/nypd-fire-massive-racial-gap-city-marijuana-arrest-article-1.3842903) in NYC are of people of color.
 -   A new coalition of criminal justice reformers, [Court Watch NYC](https://injusticetoday.com/court-watch-nyc-is-here-to-hold-new-york-citys-reformer-das-accountable-568c88c7629f), is planning to sit in on arraignments in order to hold the DAs in Manhattan and Brooklyn--where Cy Vance and Eric Gonzalez both claimed they would limit requests for bail, but offered no data to support those claims--accountable. About 150 "court watchers" have already been trained.
