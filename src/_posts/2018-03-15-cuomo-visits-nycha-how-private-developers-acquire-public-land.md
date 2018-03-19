@@ -19,6 +19,8 @@ title: Cuomo visits NYCHA + How Private Developers Acquire Public Land
 
 ## In-Depth: Public Land Grabs: How Private Developers Acquire Public Land
 
+!["Divestment"](https://raw.githubusercontent.com/nycdsa/the-thorn/master/src/images/Thorn_PublicLand_02.jpg)
+
 **A brief history of public land in NYC**
 
 Public land has [historically](http://www.metropolitiques.eu/spip.php?page=print&id_article=1203) played a crucial role in the development of affordable housing and urban planning. However, the process of public land leases and sales can unsurprisingly favor for-profit developers at the expense of working class tenants. A variety of institutionally racist land use policies across the US including[  redlining](https://www.washingtonpost.com/news/wonk/wp/2015/05/28/evidence-that-banks-still-deny-black-borrowers-just-as-they-did-50-years-ago/?utm_term=.e2a8402b5f26),[  deindustrialization](https://www.jacobinmag.com/2018/01/new-york-gentrification-real-estate-deindustrialization), and[  urban renewal](https://www.fastcodesign.com/90155955/the-racist-roots-of-urban-renewal-and-how-it-made-cities-less-equal) resulted in a great deal of landlord foreclosures by the 1970s. These properties were eventually taken over by municipalities. While some cities continue to maintain this stock of public land, New York City has developed various mechanisms through which public land is used for neighborhood redevelopment.
