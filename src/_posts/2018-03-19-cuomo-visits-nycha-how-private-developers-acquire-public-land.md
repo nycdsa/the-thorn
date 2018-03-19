@@ -19,7 +19,7 @@ title: Cuomo visits NYCHA + How Private Developers Acquire Public Land
 
 ## In-Depth: Public Land Grabs: How Private Developers Acquire Public Land
 
-!["Divestment"](https://raw.githubusercontent.com/nycdsa/the-thorn/master/src/images/Thorn_PublicLand_02.jpg)
+!["Divestment"](https://raw.githubusercontent.com/nycdsa/the-thorn/master/src/images/Thorn_PublicLand_05clean.jpg)
 
 **A brief history of public land in NYC**
 
@@ -39,7 +39,7 @@ Despite this shift in policy at the EDC, since de Blasio took office in January 
 
 The most common way for a private developer to acquire public land is by responding to a [publicly available](http://www1.nyc.gov/site/oercommunity/development/how-to-acquire-public-property.page) Request for Proposals (RFP) or a Request for Interest (RFI) released by EDC or HPD. These requests outline the selection criteria and requirements associated with the parcel of land, and each submission is assessed by an appointed team of evaluators consisting of employees within the agency or external organizations. While this is the most competitive and therefore most "transparent" procurement process, there are opportunities for it to favor certain developers during the selection process. For example, the agency may tailor the selection criteria to a specific developer's competencies, ensuring that specific developer is awarded the contract.
 
-S**ole Source Procurements**
+**Sole Source Procurements**
 
 In some cases, a project is awarded to a specific company without any competitive process, which is called a sole source. A sole source must meet specific requirements that were established in 1982 for EDC's predecessor, the Public Development Corporation. The requirements are extremely generic, referring broadly to instances where there is a vendor with "unique" capabilities leaving no viable alternatives, a "small component" of a project (defined as 1/100th of the overall project cost) is a critical path item and a competitive procurement would cause a sufficient delay or overruns, and a consultant's prior experience would "add significantly to the overall quality of ... the planning, design, or construction of the project." In short, a sole source procurement is conducted at the whim of Deputy Mayor Alicia Glen who must sign off on all sole source procurements. This is by far the least transparent and most controversial method of procurement, though significantly less common, allowing the DM to award a contract to whomever she thinks is most appropriate.
 
