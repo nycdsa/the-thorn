@@ -45,4 +45,5 @@ In some cases, a project is awarded to a specific company without any competitiv
 
 **Why does this matter?**
 Public land is a scarce and precious resource. The developer-friendly policies of Mayor de Blasio and Deputy Mayor Glen are ineffective at closing the widening affordability gap and stemming New York City's continued housing crisis, which has been called a [humanitarian emergency](http://www.nybooks.com/articles/2017/08/17/tenants-under-siege-inside-new-york-city-housing-crisis/). As socialists, we must continue to fight for more radical solutions such as [community land trusts](https://community-wealth.org/strategies/panel/clts/index.html) that will help bring land back into public control and allow for the creation of permanently affordable housing, communal green spaces, and other social goods.
+
 *(Illustration by Annie Zhao)*
