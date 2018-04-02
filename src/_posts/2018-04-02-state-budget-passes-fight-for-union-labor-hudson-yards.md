@@ -18,9 +18,7 @@ title: State Budget Passes + The Fight For Union Labor at Hudson Yards
 -   Dutchess County Executive Marcus Molinaro is expected to [announce](http://www.gothamgazette.com/state/7581-in-run-for-governor-marc-molinaro-will-make-a-character-argument) his candidacy for New York State Governor this week and is seen as the [prohibitive favorite](http://www.syracuse.com/politics/index.ssf/2018/03/molinaro_wins_support_to_lock_up_gop_nomination_for_ny_governor.html) to secure the Republican nomination.
 -   Former New York City Councilmembers Melissa Mark-Viverito and Elizabeth Crowley have launched [21 in '21](http://www.gothamgazette.com/opinion/7576-how-the-21-in-21-movement-to-elect-women-will-be-successful), a campaign to elect 21 women to the City Council in the next round of elections. Currently, 11 of 51 NYC Councilmembers are women.
 
-## In-Depth:
-
-**The fight for union labor at Hudson Yards**
+## In-Depth: The fight for union labor at Hudson Yards
 
 !["Divestment"](https://raw.githubusercontent.com/nycdsa/the-thorn/master/src/images/hudson-yards.jpg)
 
