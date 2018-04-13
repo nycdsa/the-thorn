@@ -46,6 +46,7 @@ title: IDC & Cuomo Broker Reunification Deal + NYC’s Solidarity Economy
 -   Indicted State Assemblymember Pamela Harris (D. Coney Island, Bay Ridge) has chosen to [step down](https://www.brooklyneagle.com/articles/2018/4/3/pamela-harris-resigns-state-assembly) prompting [speculation](https://www.kingscountypolitics.com/harris-resigns-gentile-interested-in-seat/) that former City Council member from D. 43 (Bay Ridge) Vincent Gentile will run for the seat.
 
 ## In-Depth: NYC's Solidarity Economy
+!["Divestment"](https://raw.githubusercontent.com/nycdsa/the-thorn/master/src/images/unnamed.jpg)
 
 'Solidarity Economy' refers to economic activities that meet human needs while reinforcing values of social justice, ecological sustainability, cooperation, mutualism, and democracy. Solidarity economy practices often overlap with, or are grounded in indigenous knowledge and practice including collective ownership and consideration for ecosystems and communities. The term originally comes from Latin American academics naming economic practices they observed in social movements, providing context for 'third way' socialism espoused by populists in the global justice movement.
 
