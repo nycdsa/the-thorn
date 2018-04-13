@@ -80,3 +80,5 @@ CDCUs, like all credit unions, provide financial services to members and are gov
 
 Most of these specific sectors have political relationships with City Hall or Albany, and they frequently can use the support of DSA members to protect these projects that are regularly threatened by those who seek to convert community ownership to private wealth. CEANYC is building capacity among these groups to pursue a common political agenda, and the groups are currently mulling a campaign for a municipal Office of Cooperative Economics that would serve to protect and support solidarity economy work. While this shouldn't replace other efforts to build working class power, such a campaign holds the promise of uniting working class activists across generations, neighborhoods, cultures, and solidarity economy models for a vision of community-controlled economic development that is feasible in the current political climate.\
 For more information about NYC's solidarity economy, or to set up a workshop, email us at <organize@gocoopnyc.com>. And catch us talking with Jessica Gordon-Nembhard on Season of the Bitch in May!
+
+*(Illustration by Annie Zhao)*
