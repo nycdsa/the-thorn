@@ -15,9 +15,7 @@ title: Voting Rights Restored + Return of the Rent Guidelines Board
 -   [Special elections](https://ballotpedia.org/New_York_state_legislative_special_elections,_2018) to fill two New York State Senate Seats and nine assembly seats, including [three NYC](http://www.gothamgazette.com/state/7483-the-11-special-elections-set-for-april-24) area openings, are being held Tuesday, April 24th. Given the already sad state of voter turnout these elections will likely be decided by a [small fraction](https://citylimits.org/2018/04/18/a-mere-handful-of-voters-likely-to-decide-who-represents-125000-bronxites-in-albany/) of the total electorate.
 -   According to a Daily News report, Bernie Sanders is [unlikely](http://www.nydailynews.com/news/politics/lovett-cynthia-nixon-bernie-sanders-backing-article-1.3936141) to endorse Cynthia Nixon in the New York State gubernatorial primary. Shortly after the report was published, a Sanders' aide still made sure to draw [distance](http://www.nydailynews.com/news/politics/bernie-sanders-adviser-pol-not-lock-step-cuomo-article-1.3937002) between the Vermont Senator and Governor Cuomo.
 
-In-Depth:
-
-## THE RENT GUIDELINES BOARD AND YOU!
+## In-Depth: THE RENT GUIDELINES BOARD AND YOU!
 
 (this piece originally ran in the May 15th 2017 issue of the Thorn)
 
