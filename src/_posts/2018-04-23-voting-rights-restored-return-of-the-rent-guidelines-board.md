@@ -17,7 +17,7 @@ title: Voting Rights Restored + Return of the Rent Guidelines Board
 
 ## In-Depth: THE RENT GUIDELINES BOARD AND YOU!
 
-(this piece originally ran in the May 15th 2017 issue of the Thorn)
+*(this piece originally ran in the May 15th 2017 issue of the Thorn)*
 
 Although much of the conversation around affordable housing in NYC is focused on new development and tax breaks, a significant stock of affordable housing already exists in the form of unsubsidized rent-stabilized apartments. [Nearly half](http://furmancenter.org/thestoop/entry/report-the-challenge-of-rising-rents) of rental apartments in NYC are subject to rent stabilization, giving those tenants a slew of rights that non-stabilized tenants don't have (such as a right to a lease renewal and a right to live free from frequent buyout offers) as well as a uniform cap on the amount that their rent can go up each year.
 
