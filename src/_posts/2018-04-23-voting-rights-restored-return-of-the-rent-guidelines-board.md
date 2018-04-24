@@ -16,6 +16,7 @@ title: Voting Rights Restored + Return of the Rent Guidelines Board
 -   According to a Daily News report, Bernie Sanders is [unlikely](http://www.nydailynews.com/news/politics/lovett-cynthia-nixon-bernie-sanders-backing-article-1.3936141) to endorse Cynthia Nixon in the New York State gubernatorial primary. Shortly after the report was published, a Sanders' aide still made sure to draw [distance](http://www.nydailynews.com/news/politics/bernie-sanders-adviser-pol-not-lock-step-cuomo-article-1.3937002) between the Vermont Senator and Governor Cuomo.
 
 ## In-Depth: THE RENT GUIDELINES BOARD AND YOU!
+!["Divestment"](https://raw.githubusercontent.com/nycdsa/the-thorn/master/src/images/thorn_rentguidelinesboard_04.jpg)
 
 *(this piece originally ran in the May 15th 2017 issue of the Thorn)*
 
@@ -32,3 +33,5 @@ Another limitation of the RGB is its inability to address weaknesses in rent sta
 Read more about the rent laws here: <https://thethorn.nyc/posts/city-agrees-to-divest-from-fossil-fuels-nyc-rent-laws/>
 
 Information about how to find out if your own apartment is rent stabilized can be found [here](http://www.nycrgb.org/html/resources/faq/rentstab.html). If you are a rent stabilized tenant, consider attending one of the [upcoming RGB hearings](https://www1.nyc.gov/site/rentguidelinesboard/meetings/2018-meetings.page), including the preliminary vote this Thursday April 26th.
+
+*(Illustration by Annie Zhao)*
