@@ -3,6 +3,8 @@ issue: 62
 title: 2019 City Budget Proposal + NYC-DSA endorses Alexandria Ocasio-Cortez
 ---
 
+!["Divestment"](https://raw.githubusercontent.com/nycdsa/the-thorn/master/src/images/thorn-4-30.jpg)
+
 ## Local News
 -   Bill De Blasio presented his 2019 [budget](http://www.gothamgazette.com/city/7641-de-blasio-presents-89-billion-executive-budget-plan?mc_cid=b8b97e1817&mc_eid=1a9d72cbc4) proposal. Included was an additional $125 million for [854](https://www.chalkbeat.org/posts/ny/2018/04/25/these-854-schools-stand-to-benefit-from-new-york-citys-125m-funding-boost/) NYC schools that De Blasio said were [underfunded](https://nypost.com/2018/04/25/de-blasio-announces-125m-in-school-funding-slams-cuomo/?mc_cid=2e5124485d&mc_eid=1a9d72cbc4) in the New York State budget. Missing was funding for the [Fair Fares](https://www.amny.com/transit/fair-fares-nyc-budget-1.18274685) program [supported](https://ny.curbed.com/2018/4/11/17221256/mta-fair-fares-city-council-response-mayor-de-blasio) by the majority of New York's City Council.
 -   The Republican State Senate says it will no longer rush through Gov. Cuomo's [appointments](http://www.nydailynews.com/news/politics/state-republicans-warn-cuomo-nominee-appointments-article-1.3949383), as it did last year with Cuomo's appointment of Joe Lhota to run the MTA.
