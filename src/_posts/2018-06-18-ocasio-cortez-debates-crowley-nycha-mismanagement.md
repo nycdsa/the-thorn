@@ -4,7 +4,7 @@ title: Ocasio-Cortez debates Crowley + NYCHA Mismanagement
 ---
 
 !["Divestment"](https://raw.githubusercontent.com/nycdsa/the-thorn/master/src/images/6adba0e3-991a-40d6-876e-11d8efa5f78d.png)
-Alexandria Ocasio-Cortez is challenging Joseph Crowley for the seat representing the 14th district. *Illustration by [Anna Niess](http://annaniess.tumblr.com/) *
+Alexandria Ocasio-Cortez is challenging Joseph Crowley for the seat representing the 14th district. *Illustration by [Anna Niess](http://annaniess.tumblr.com/)*
 
 ## Local News
 -   Federal prosecutors [accused](https://www.nytimes.com/2018/06/11/nyregion/new-york-city-housing-authority-lead-paint.html) the City of systematically mismanaging NYCHA, and negotiated a settlement with the de Blasio administration to substantially increase funding and oversight.
