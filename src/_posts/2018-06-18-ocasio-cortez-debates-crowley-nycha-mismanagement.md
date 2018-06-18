@@ -19,7 +19,7 @@ Alexandria Ocasio-Cortez is challenging Joseph Crowley for the seat representing
 
 -   The NYC City Council [passed](https://www.nytimes.com/2018/06/11/nyregion/new-york-city-budget-subway-fares.html) the city budget on Monday, including funding for discounted MTA fares for residents below the federal poverty line.
 
-Elections:
+## Elections
 
 -   Senator Kirsten Gillibrand [endorsed](http://www.nystateofpolitics.com/2018/06/gillibrand-endorses-crowley/) Rep. Joe Crowley for re-election over Alexandria Ocasio-Cortez. Gillibrand also endorsed Governor Cuomo over Cynthia Nixon in March.
 
