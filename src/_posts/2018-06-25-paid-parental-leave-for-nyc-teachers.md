@@ -31,4 +31,4 @@ title: Paid Parental Leave for NYC Teachers + US Congressional Primaries Are Thi
 
 -   Cynthia Nixon unveiled a plan for [campaign finance reform](http://www.gothamgazette.com/state/7746-citing-broken-cuomo-promises-nixon-unveils-campaign-finance-reform-plan) as part of her campaign against Andrew Cuomo, and called for ICE to be [dismantled](http://www.nydailynews.com/news/politics/ny-pol-cuomo-nixon-ice-trump-immigration-20180620-story.html).
 
--   Stephanie Miner announced her intention to [run](https://www.syracuse.com/politics/index.ssf/2018/06/stephanie_miner_to_run_for_ny_governor_as_independent.html) for governor as an independent.
+-   Stephanie Miner announced her intention to [run](https://www.syracuse.com/politics/index.ssf/2018/06/stephanie_miner_to_run_for_ny_governor_as_independent.html) for governor as an independent. 
