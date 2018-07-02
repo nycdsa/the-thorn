@@ -33,13 +33,13 @@ title: Alexandria Ocasio-Cortez Wins!
 
 -   The City Planning Commission [approved](https://citylimits.org/2018/06/25/planning-commission-approves-inwood-rezoning/) the de Blasio Administration's Inwood rezoning proposal, moving it to final consideration by the City Council in July.
 
+!["Divestment"](https://raw.githubusercontent.com/nycdsa/the-thorn/master/src/images/6adba0e3-991a-40d6-876e-11d8efa5f78d.png)
+
 ## Why Alexandria Ocasio-Cortez Won
 
 **BY MICHAEL KINNUCAN**
 
 *Originally published in [Jacobin](https://www.jacobinmag.com/2018/06/alexandria-ocasio-cortez-election-crowley-democratic-socialists)*
-
-!["Divestment"](https://raw.githubusercontent.com/nycdsa/the-thorn/master/src/images/6adba0e3-991a-40d6-876e-11d8efa5f78d.png)
 
 The more you know about New York politics the more surprising [Alexandria Ocasio-Cortez's victory](https://www.theguardian.com/us-news/video/2018/jun/28/this-is-the-beginning-alexandria-ocasio-cortezs-victory-speech-video) over Joe Crowley is. Crowley wasn't merely the fourth-ranked Democrat in the House; he was the dominant force in Queens politics for a decade, the king of the Queens machine. The extent to which Crowley and "county" exerted power over every race in Queens and over New York politics more broadly is hard to overstate; only six months ago, Crowley minted a new city council speaker  ---  the second-most-powerful position in city government. The fact that he got taken down by an outsider is nothing short of breathtaking; the power centers of New York politics are reeling. If Crowley can be beaten, no one is safe.
 
