@@ -40,7 +40,6 @@ title: Alexandria Ocasio-Cortez Wins!
 *Originally published in Jacobin*
 
 !["Divestment"](https://raw.githubusercontent.com/nycdsa/the-thorn/master/src/images/6adba0e3-991a-40d6-876e-11d8efa5f78d.png)
-Alexandria Ocasio-Cortez is challenging Joseph Crowley for the seat representing the 14th district. *Illustration by [Anna Niess](http://annaniess.tumblr.com/)*
 
 The more you know about New York politics the more surprising [Alexandria Ocasio-Cortez's victory](https://www.theguardian.com/us-news/video/2018/jun/28/this-is-the-beginning-alexandria-ocasio-cortezs-victory-speech-video) over Joe Crowley is. Crowley wasn't merely the fourth-ranked Democrat in the House; he was the dominant force in Queens politics for a decade, the king of the Queens machine. The extent to which Crowley and "county" exerted power over every race in Queens and over New York politics more broadly is hard to overstate; only six months ago, Crowley minted a new city council speaker  ---  the second-most-powerful position in city government. The fact that he got taken down by an outsider is nothing short of breathtaking; the power centers of New York politics are reeling. If Crowley can be beaten, no one is safe.
 
@@ -89,3 +88,5 @@ This totally changes the map of NYC politics; people are looking vulnerable who 
 Obviously electoral work builds power, builds organization, and builds membership. I hope that's a conversation we can put to rest.
 
 DSA in New York suddenly has a bit of cred, a bit of power. This is our first big win in New York. Let's be careful and thoughtful about how we conduct ourselves; the world  ---  not the world of media but the world of power  ---  suddenly has an eye on us.
+
+*Illustration by [Anna Niess](http://annaniess.tumblr.com/)*
