@@ -37,7 +37,7 @@ title: Alexandria Ocasio-Cortez Wins!
 
 **BY MICHAEL KINNUCAN**
 
-*Originally published in Jacobin*
+*Originally published in [Jacobin](https://www.jacobinmag.com/2018/06/alexandria-ocasio-cortez-election-crowley-democratic-socialists)*
 
 !["Divestment"](https://raw.githubusercontent.com/nycdsa/the-thorn/master/src/images/6adba0e3-991a-40d6-876e-11d8efa5f78d.png)
 
