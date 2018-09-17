@@ -3,7 +3,7 @@ issue: 81
 title: Julia Salazar Wins + Voter Turnout Stats
 ---
 
-##Elections:
+## Elections:
 
 -   DSA-endorsee Julia [Salazar](https://theintercept.com/2018/09/15/julia-salazar-new-york-senate-dsa/) won the Democratic primary in New York State Senate District 18 on Thursday, defeating eight-term incumbent Martin Dilan, even after Dilan received a surge of illicit, last-minute [donations](https://readsludge.com/2018/09/12/mysterious-political-group-linked-to-n-y-sen-martin-dilan-is-funded-by-big-real-estate/) from the real estate lobby. Salazar, who made DSA [priorities](https://www.huffingtonpost.com/entry/julia-salazar-wins-new-york-state-senate_us_5b9a9a22e4b010e18e376f9f) housing affordability and universal health care the centerpieces of her campaign, will not face an opponent in the general election.
 -   The New Yorker covered DSA-member Julia Salazar's victory and [attributed](https://www.newyorker.com/news/our-columnists/a-triumphant-primary-night-for-julia-salazar-and-the-dsa-in-brooklyn) it to NYC-DSA's growing power in the City's politics. Martin Dilan's former spokesperson [said](http://www.nydailynews.com/opinion/ny-oped-what-new-yorks-dems-are-waking-up-to-20180914-story.html) essentially the same.
@@ -21,7 +21,7 @@ title: Julia Salazar Wins + Voter Turnout Stats
 -   With NYC Public Advocate Tish James likely moving on to win the Attorney General race against a Republican in November's election, there is already a crowded field of [potential candidates](http://www.nydailynews.com/news/politics/ny-pol-public-advocate-special-election-quinn-mark-viverito-20180914-story.html) jockeying for her position ahead of a potential special election in 2019, thanks to a high number of term-limited city officials currently serving their second terms.
 -   In addition to former Council Speakers Christine Quinn and Melissa Mark-Viverito, Brooklyn Council Members Robert [Cornegy](https://twitter.com/GloriaPazmino/status/1040650799200841728) and Carlos [Menchaca](https://twitter.com/cmenchaca/status/1040753629765021696/photo/1) have already publicly indicated interest in the race for Public Advocate. Others speculated to be considering the race include CM Jumaane [Williams](https://nypost.com/2018/09/14/jumaane-williams-emerges-a-top-candidate-for-public-advocate/), who won [54%](https://twitter.com/JMilesColeman/status/1040544340291018753) of the NYC vote in his DSA-endorsed effort for Lieutenant Governor, CM Ritchie Torres, CM Ydanis Rodriguez, First Lady Chirlane McCray, and Brooklyn Borough President Eric Adams.
 
-##Local News:
+## Local News:
 
 -   New York City's public Wi-Fi, LinkNYC, continues to raise [privacy concerns](https://theintercept.com/2018/09/08/linknyc-free-wifi-kiosks/) about what data is being collected on users, and who has access to it.
 -   A program to encourage school safety officers to issue [warning](http://www.ny1.com/nyc/all-boroughs/news/2018/09/14/public-schools-tackle-students-first-offense-with-warning-cards) cards to students in lieu of criminal summonses for minor offenses is not being widely used, NY1 reports.
@@ -29,6 +29,6 @@ title: Julia Salazar Wins + Voter Turnout Stats
 -   Once again, New York voters faced [difficulties](http://gothamist.com/2018/09/13/voter_rolls_primary_purge.php) trying to cast their ballots last week, with many finding themselves stricken from the rolls, or registered in new parties. The victims included Mayor De Blasio's son, Dante, who had to fill out an affidavit ballot.
 -   The City Council's Charter Revision Commission, which is slated to make suggestions for ballot initiatives to change the New York City Charter for 2019 with a broader mandate than this year's [Mayoral Charter Revision](http://www.gothamgazette.com/city/7912-mayoral-charter-revision-commission-puts-three-questions-on-november-ballot) Commission, held its first [hearing](http://www.gothamgazette.com/city/7932-2019-charter-revision-commission-holds-first-public-hearing) this week.
 
-##Voter turnout increase vs. 2014 Primary
+## Voter turnout increase vs. 2014 Primary
 
 ![](https://lh3.googleusercontent.com/On8hwOWfDrU6eTSQnJGuFoJd1NvSUBFl2yyRVZ1GCAXywY0cKKM2mqCHSvckAXw4Qvs5fdFRFuIsToADk1ak3SV-sYYSGlHDBvd6IbexIh_dzNhl1T0axnmZ98LZ99NsXqCAMhsf)
