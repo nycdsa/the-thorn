@@ -32,3 +32,4 @@ title: Julia Salazar Wins + Voter Turnout Stats
 ## Voter turnout increase vs. 2014 Primary
 
 ![](https://lh3.googleusercontent.com/On8hwOWfDrU6eTSQnJGuFoJd1NvSUBFl2yyRVZ1GCAXywY0cKKM2mqCHSvckAXw4Qvs5fdFRFuIsToADk1ak3SV-sYYSGlHDBvd6IbexIh_dzNhl1T0axnmZ98LZ99NsXqCAMhsf)
+*Chart by [Dev McManus](https://twitter.com/Devinitelybk/status/1041414134670258178)*
