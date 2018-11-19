@@ -2,6 +2,7 @@
 issue: 90
 title: Cuomo & De Blasio Give Amazon Billions to Settle in Long Island City
 ---
+![](https://github.com/nycdsa/the-thorn/blob/master/src/images/thorn-AMAZON-BOX.jpg?raw=true)
 
 ## Local News
 -   Governor Cuomo and Mayor De Blasio are giving away [$2.8 billion](https://www.amny.com/news/amazon-hq2-tax-break-benefit-1.23381599) in tax incentives and grants to Amazon to build a second [headquarters](https://www.nytimes.com/2018/11/13/nyregion/amazon-long-island-city.html) in Long Island City, Queens. The City, State, and Amazon -- a corporation valued at $1 trillion -- are pledging [$15 million](https://ny.curbed.com/2018/11/13/18092020/amazon-hq2-long-island-city-new-york-income-inequality) in local workforce development, less than one percent of the subsidy being given. Among the most immediate displacements of Amazon's new footprint will be at least 1,500 units of previously planned [affordable housing](https://www.politico.com/states/new-york/albany/story/2018/11/15/amazon-deal-will-disrupt-plans-for-affordable-housing-on-long-island-city-sites-700784) and the offices of 1,000 [public school](https://www.politico.com/states/new-york/newsletters/politico-new-york-education/2018/11/16/amazon-deal-to-kick-1-000-school-employees-out-of-their-offices-136814) employees.
@@ -17,3 +18,5 @@ title: Cuomo & De Blasio Give Amazon Billions to Settle in Long Island City
 -   The Board of Elections has still [not certified](https://brooklynreporter.com/2018/11/absentee-vote-count-postponed-in-golden-gounardes-race/) Democrat Andrew Gounardes' apparent win over Republican State Senator Marty Golden (District 22 - Bay Ridge) due to an inability to count absentee ballots on time.
 -   While the election for a new Public Advocate has still not been officially scheduled, seven candidates for the position [debated](http://www.gothamgazette.com/city/8076-at-first-debate-candidates-for-public-advocate-pitch-visions-for-the-role) at the New York Law School. All candidates insisted the position needs a bigger budget and more power. Meanwhile, a group of City Council Members are preparing to introduce legislation that would [eliminate](https://www.nydailynews.com/new-york/ny-metro-public-advocate-abolish-20181112-story.html) the position altogether.
 -   In Queens, two [candidates](http://www.gothamgazette.com/state/8078-agenda-2019-queens-district-attorney-race-will-center-on-push-for-reform) have already announced for the 2019 DA's race: City Council Member Rory Lancman (District 24 - Kew Gardens Hills) and retired Judge Gregory Lasak. Criminal justice reform advocates are targeting the race as an opportunity to reverse the trends in the office under current District Attorney Richard Brown.
+
+*Illustration by James Thacher*
