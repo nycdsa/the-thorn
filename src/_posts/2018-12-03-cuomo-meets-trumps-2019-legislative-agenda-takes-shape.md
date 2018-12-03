@@ -3,6 +3,7 @@ issue: 92
 title: Cuomo Meets Trumps + 2019 Legislative Agenda Takes Shape
 ---
 ![](https://github.com/nycdsa/the-thorn/blob/master/src/images/thorn-cuomo-trump-1.jpg?raw=true)
+
 ## Local News:
 -   Governor Cuomo met with President Trump as part of an effort to re-secure a funding agreement for a sorely-needed [tunnels](https://www.nytimes.com/2018/11/28/nyregion/trump-cuomo-hudson-tunnel.html?rref=collection%2Fsectioncollection%2Fnyregion&action=click&contentCollection=nyregion&region=rank&module=package&version=highlights&contentPlacement=1&pgtype=sectionfront&mc_cid=26ab885a05&mc_eid=c6cb0a150f) under the Hudson River.
 -   Boris Santos, a NYC-DSA member and Julia Salazar's incoming Chief of Staff, [wrote](http://www.gothamgazette.com/opinion/8107-pushing-the-envelope-on-rent-reform-in-albany-2019) an op-ed supporting an ambitious rent reform agenda in 2019, including the Housing Justice For All [platform](https://www.housingjusticeforall.org/) and universal rent control.
