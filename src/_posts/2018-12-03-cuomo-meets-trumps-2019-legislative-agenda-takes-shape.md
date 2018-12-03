@@ -1,6 +1,6 @@
 ---
 issue: 92
-title: Cuomo Meets Trumps + 2019 Legislative Agenda Takes Shape
+title: Cuomo Meets Trump + 2019 Legislative Agenda Takes Shape
 ---
 ![](https://github.com/nycdsa/the-thorn/blob/master/src/images/thorn-cuomo-trump-1.jpg?raw=true)
 
