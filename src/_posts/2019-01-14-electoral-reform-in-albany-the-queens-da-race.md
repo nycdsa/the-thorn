@@ -3,7 +3,7 @@ issue: 97
 title: Electoral Reform in Albany + The Queens DA Race
 ---
 
-## Local News:
+## Local News: 
 -   With Democrats now in control of both the New York State Assembly and the State Senate, the Legislature is ready to pass a series of bills aimed at[  electoral reform](https://m.timesunion.com/news/article/Legislature-to-tackle-electoral-reform-on-Monday-13521663.php). The bills would include early voting, mail in voting, closing the LLC loophole, pre-registration of 16 & 17 year olds, and a consolidated primary schedule. Not included in the package is any restoration of voting rights to people on parole, automatic voter registration, or more flexibility for voters to switch parties.
 -   Although the number of marijuana arrests dropped significantly over the past year, the racial disparity in arrests remains high. Nearly 90% of people arrested for smoking marijuana in 2018 were black or hispanic.
 -   Mayor De Blasio announced a flurry of new initiatives leading up to and during his State of the City speech on Thursday, including:
