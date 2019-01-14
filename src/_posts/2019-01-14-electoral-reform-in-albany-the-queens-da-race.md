@@ -18,4 +18,4 @@ title: Electoral Reform in Albany + The Queens DA Race
 
 ## Elections:
 -   Richard Brown, who has served as Queens DA since June 27, 1991, has finally announced his retirement at the end of his term this year. Brown was seen as a "tough on crime" district attorney, and his retirement opens up an [opportunity](https://www.nytimes.com/2019/01/09/nyregion/queens-district-attorney-richard-brown.html) for a reform candidate to be elected this November. DSA's Queens Electoral Working Group is holding a candidate forum this Thursday, January 17 in Jackson Heights. RSVP [here](https://actionnetwork.org/events/queens-dsa-district-attorney-forum).
--   In the crowded Public Advocate race, City Councilman Jumaane Williams is [leading](https://www.cityandstateny.com/articles/politics/campaigns-elections/new-york-city-public-advocate-endorsements.html) in number of endorsements, by a wide margin.
+-   In the crowded Public Advocate race, City Councilman Jumaane Williams is [leading](https://www.cityandstateny.com/articles/politics/campaigns-elections/new-york-city-public-advocate-endorsements.html) in number of endorsements, by a wide margin. 
