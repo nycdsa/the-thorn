@@ -3,8 +3,6 @@ A static website for The Thorn (https://www.thethorn.nyc) - [**Subscribe** now](
 
 [![CircleCI](https://circleci.com/gh/nycdsa/the-thorn.svg?style=svg)](https://circleci.com/gh/nycdsa/the-thorn)
 
-[![CircleCI](https://circleci.com/gh/nycdsa/the-thorn.svg?style=shield)]
-
 This is just a regular [Jekyll](https://jekyllrb.com) site.
 
 ## Installation and running locally
