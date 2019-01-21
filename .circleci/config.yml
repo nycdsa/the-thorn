@@ -35,7 +35,7 @@ jobs:
       - persist_to_workspace:
           root: ./
           paths:
-            - _site
+            - dist
   deploy:
     <<: *defaults
     docker:
@@ -50,7 +50,7 @@ jobs:
           command: pip install awscli --upgrade --user
       - run:
           name: Upload to s3
-          command: ~/.local/bin/aws s3 sync ./_site s3://$S3_the-thorn/ --delete --acl public-read
+          command: ~/.local/bin/aws s3 sync ./dist s3://the-thorn/ --delete --acl public-read
 workflows:
   version: 2
   test-deploy:
