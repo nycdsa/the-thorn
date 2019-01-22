@@ -1,6 +1,6 @@
+
 test:
-  override:
-    - echo "no tests :)"
+  - echo "no tests :)"
 deployment:
   prod:
     branch: master
