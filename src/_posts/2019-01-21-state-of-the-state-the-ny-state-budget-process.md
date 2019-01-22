@@ -1,6 +1,6 @@
 ---
 issue: 98
-title: State of the State + The Queens District Attorney Race
+title: State of the State
 ---
 
 ## Local News:
