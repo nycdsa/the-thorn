@@ -1,0 +1,9 @@
+test:
+  override:
+    - echo "no tests :)"
+deployment:
+  prod:
+    branch: master
+    commands:
+      - bundle exec jekyll build
+      - aws s3 sync dist/ s3://the-thorn/ --delete
