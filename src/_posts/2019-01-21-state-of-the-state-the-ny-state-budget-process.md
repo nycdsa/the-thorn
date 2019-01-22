@@ -1,6 +1,6 @@
 ---
 issue: 98
-title: State of the State + The NY State Budget Process
+title: State of the State + The Queens District Attorney Race
 ---
 
 ## Local News:
