@@ -4,7 +4,6 @@ title: State of the State + The Queens District Attorney Race
 ---
 
 ## Local News:
-
 -   Gov. Cuomo delivered his 2019 State of the State speech, where he outlined the [major policy](https://www.nytimes.com/2019/01/15/nyregion/cuomo-state-address.html) changes included in his executive budget. They include a plan for legalized [marijuana](https://www.marijuanamoment.net/new-york-gov-cuomo-releases-marijuana-legalization-details/), congestion [pricing](https://grist.org/article/one-more-reason-not-to-drive-in-new-york-that-could-also-save-the-planet/), a plastic [bag ban](https://www.newyorkupstate.com/news/2019/01/gov-cuomo-plans-to-ban-plastic-bags-expand-bottle-bill.html), and eliminating carbon emissions by 2040. He also wants to make permanent the [property tax cap](https://www.recordonline.com/news/20190115/governor-wants-permanent-cap-on-property-taxes) he has kept in place since 2011, a plan supported by many suburban Democrats, and new State Senate [leader](https://www.wgrz.com/article/news/local/new-york/new-senate-leader-make-property-tax-cap-permanent/71-ea10a3bd-255c-4d96-add4-a59aa99843dd) Andrea Stewart-Cousins.
 
 -   Amid seemingly endless confusion, Gov. Cuomo convened an emergency MTA board meeting on the L train shutdown cancellation, prompting Gothamist to summarize: [Cuomo, Who Controls The MTA, Asks To Control The MTA While Unilaterally Setting Agenda For MTA](http://gothamist.com/2019/01/14/mta_emergency_meeting_cuomo.php). Gothamist compiled a [Q&A](http://gothamist.com/2019/01/16/l_train_shutdown_questions.php) on all things L-train after the meeting.
@@ -30,7 +29,6 @@ title: State of the State + The Queens District Attorney Race
 -   With Mayor De Blasio's BQX streetcar proposal all but dead, its former "Czar" is [taking](https://www.politico.com/states/new-york/city-hall/story/2019/01/11/stymied-in-nyc-former-bqx-czar-pursues-grander-plans-in-saudi-arabia-787043) a job in Saudi Arabia.
 
 ## Elections:
-
 -   The Queens District Attorney race is being framed as a [battle](https://queenscountypolitics.com/2019/01/15/queens-da-race-could-be-ocasio-cortez-crowley-proxy-battle/) between the entrenched Democratic machine of Joe Crowley vs. the upstart progressive wing represented by Alexandria Ocasio-Cortez.
 
 -   Queens for DA Accountability, a coalition that includes NYC-DSA's Queens branch, released a [statement](http://www.gothamgazette.com/opinion/8194-community-demands-for-the-next-queens-district-attorney) on what it is looking for in its new District Attorney.
