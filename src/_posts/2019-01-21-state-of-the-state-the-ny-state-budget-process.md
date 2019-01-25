@@ -25,7 +25,6 @@ title: State of the State
 -   According to new standards put out by the State, there are 124 City [schools](https://www.chalkbeat.org/posts/ny/2019/01/17/struggling-schools-nyc-essa/) need either "targeted" or "comprehensive" support. About 40 of those schools were considered "in good standing" last year, under the old guidelines.
 
 -   A City Limits article takes an in-depth look at what NY politicians pledge to support "innovation" to draw Amazon might mean from a [policy](https://citylimits.org/2019/01/18/new-york-city-isnt-just-getting-amazons-jobs-its-also-welcoming-its-political-agenda/) perspective.
-
 -   With Mayor De Blasio's BQX streetcar proposal all but dead, its former "Czar" is [taking](https://www.politico.com/states/new-york/city-hall/story/2019/01/11/stymied-in-nyc-former-bqx-czar-pursues-grander-plans-in-saudi-arabia-787043) a job in Saudi Arabia.
 
 ## Elections:
