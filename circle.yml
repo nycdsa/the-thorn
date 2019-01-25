@@ -1,7 +1,6 @@
 test:
   override:
     - echo "no tests, just deployments"
-
 deployment:
   prod:
     branch: master
