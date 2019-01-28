@@ -1,0 +1,20 @@
+{
+  "name": "the-thorn",
+  "version": "1.0.0",
+  "description": "A static website for The Thorn (https://www.thethorn.nyc) - [**Subscribe** now](http://nyc.us15.list-manage.com/subscribe?u=6533003d659976f89bf858d09&id=f3405fc230)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nycdsa/the-thorn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nycdsa/the-thorn/issues"
+  },
+  "homepage": "https://github.com/nycdsa/the-thorn#readme"
+}
