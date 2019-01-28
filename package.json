@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-      "build:ssr": "npm run build:client-and-server-bundles && npm run webpack:server",
+       "build": "cross-env NODE_ENV=production webpack",
     "serve:ssr": "node dist/server",
     "build:client-and-server-bundles": "ng build --prod && ng run angular.io-example:server",
      "webpack:server": "webpack --config webpack.server.config.js --progress --colors"
