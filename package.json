@@ -4,7 +4,7 @@
   "description": "A static website for The Thorn (https://www.thethorn.nyc) - [**Subscribe** now](http://nyc.us15.list-manage.com/subscribe?u=6533003d659976f89bf858d09&id=f3405fc230)",
   "main": "index.js",
   "scripts": {
-      "build": "aws s3 sync dist/ s3://the-thorn/ --delete"
+      "build": ""
   },
   "repository": {
     "type": "git",
