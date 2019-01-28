@@ -4,7 +4,7 @@
   "description": "A static website for The Thorn (https://www.thethorn.nyc) - [**Subscribe** now](http://nyc.us15.list-manage.com/subscribe?u=6533003d659976f89bf858d09&id=f3405fc230)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
       "build:ssr": "npm run build:client-and-server-bundles && npm run webpack:server",
     "serve:ssr": "node dist/server",
     "build:client-and-server-bundles": "ng build --prod && ng run angular.io-example:server",
