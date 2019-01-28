@@ -1,6 +1,6 @@
 ---
 issue: 98
-title: State of the State
+title: State of the State 
 ---
 
 ## Local News:
