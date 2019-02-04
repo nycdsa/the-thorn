@@ -21,7 +21,7 @@ title: Power restored at MDC after days without heat, lighting + Our 100th Issue
 
 -   A [report](https://www.independentpanelreportnypd.net/assets/report.pdf) highlighting key problems with the NYPD discipline system was issued by a panel of former federal prosecutors and a former federal judge (the panel was appointed by NYPD Commissioner O'Neill to review NYPD discipline).
 
-![](https://github.com/nycdsa/the-thorn/blob/master/src/images/what-does-middle-mean-to-you-.png)
+![](https://raw.githubusercontent.com/nycdsa/the-thorn/master/src/images/what-does-middle-mean-to-you-.png)
 *Comic by [Annalisa Wilde](https://www.instagram.com/the_color_red_comic/)*
 
 ## Elections:
@@ -38,7 +38,7 @@ title: Power restored at MDC after days without heat, lighting + Our 100th Issue
 
 -   Assembly Member and Public Advocate candidate Michael Blake (District 79, Morrisania) [consulted](https://m.timesunion.com/news/article/Rising-star-assemblyman-Blake-says-he-didn-t-need-13580855.php) for a Bermudan political party for two years without registering as a "foreign agent" under federal law.
 
-![](https://github.com/nycdsa/the-thorn/blob/master/src/images/Thorn-tote.jpg)
+![](https://raw.githubusercontent.com/nycdsa/the-thorn/master/src/images/Thorn-tote.jpg)
 *Tote graphic by [Annie Zhao](https://bananie.zone/)!*
 
 ## Our 100th issue:
