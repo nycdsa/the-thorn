@@ -6,7 +6,6 @@ title: Cuomo and de Blasio Agree on Dire Budget Warnings & NYC-DSA Endorses Tiff
 ## Local News:
 
 -   Weeks after revealing his budget, Gov. Cuomo announced that State tax receipts were $2.3 billion lower than anticipated, necessitating significant [changes](https://buffalonews.com/2019/02/04/serious-as-a-heart-attack-cuomo-warns-of-falling-state-revenue/) to the plan. Cuomo blamed the [Trump tax cuts](http://gothamist.com/2019/02/07/trump_tax_cuts_new_york.php), which capped State and Local Tax deductions, encouraging wealthy people to change residency, for the shortfall. "God forbid the rich leave," he said.
-
 -   New York City Mayor Bill de Blasio introduced his preliminary 2020 [budget](http://www.gothamgazette.com/city/8266-citing-several-causes-for-concern-de-blasio-presents-still-growing-budget-plan-of-92-2-billion) also warning of potential shortfalls and a need for [cutbacks](https://www.ny1.com/nyc/all-boroughs/politics/2019/02/07/bill-de-blasio-calls-for-budget-cuts-for-2020-fiscal-year-nyc-painting-grim-economic-future).
 
 -   State Senator Michael Gianaris, who has been a prominent critic of the [Amazon](https://therealdeal.com/2019/02/04/amazon-lic-critic-named-to-key-board-that-can-veto-project/) deal, was named to the Public Authorities Control Board, which has [oversight](https://www.cityandstateny.com/articles/policy/policy/what-public-authorities-control-board.html) over development deals. Gov. Cuomo must approve of the appointment.
