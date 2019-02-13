@@ -1,0 +1,18 @@
+backend:
+  name: gitlab
+  repo: nycdsa/the-thorn
+  branch: master
+# publish_mode: editorial_workflow # Not supported on gitlab for now
+media_folder: "src/images"
+public_folder: "/images"
+
+collections:
+  - name: "issues" # Used in routes, e.g., /admin/collections/blog
+    label: "Issue" # Used in the UI
+    folder: "src/_posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Issue number", name: "issue", widget: "number"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
