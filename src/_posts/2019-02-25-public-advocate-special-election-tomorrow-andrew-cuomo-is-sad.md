@@ -36,7 +36,7 @@ title: Public Advocate Special Election Tomorrow + Andrew Cuomo Is Sad
 -   The New York City Board of Elections is [suing](http://gothamist.com/2019/02/22/board_of_elections_suing_new_york_c.php) the de Blasio Administration for trying to make translators who have not been vetted by the Board available at poll sites. The City hired additional translators because the Board is not required to provide translation for Russian, Polish, Haitian Creole, or Yiddish.
 
 ## Totes:
-![](https://gallery.mailchimp.com/6533003d659976f89bf858d09/images/4ac1e655-bdd3-4901-8246-27b0c066e4e5.jpg)\
+![](https://gallery.mailchimp.com/6533003d659976f89bf858d09/images/4ac1e655-bdd3-4901-8246-27b0c066e4e5.jpg)
 *Tote graphic by [Annie Zhao](https://bananie.zone/)!*
 
 NYC Thorn tote bags will be for sale this week at NYC-DSA branch meetings. If you want to support the newsletter, pick one up!
