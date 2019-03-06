@@ -11,3 +11,4 @@ This is just a regular [Jekyll](https://jekyllrb.com) site.
 
 ## Deployment
 The app is deployed to S3 with every commit to `master`.
+🌹
